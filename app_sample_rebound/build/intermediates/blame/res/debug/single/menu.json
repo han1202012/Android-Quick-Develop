@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "C:\\hanshuliang\\develop\\workspace\\as\\AndroidQuickDevelop\\app_sample_rebound\\build\\intermediates\\res\\merged\\debug\\menu\\playground.xml",
+        "source": "C:\\hanshuliang\\develop\\workspace\\as\\AndroidQuickDevelop\\app_sample_rebound\\src\\main\\res\\menu\\playground.xml"
+    },
+    {
+        "merged": "C:\\360Download\\rebound-master\\rebound-android-playground\\build\\intermediates\\res\\merged\\debug\\menu\\playground.xml",
+        "source": "C:\\360Download\\rebound-master\\rebound-android-playground\\src\\main\\res\\menu\\playground.xml"
+    }
+]
