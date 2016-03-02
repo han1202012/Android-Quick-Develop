@@ -8,6 +8,7 @@
       <module fileurl="file://$PROJECT_DIR$/app_sample_xutils/app_sample_xutils.iml" filepath="$PROJECT_DIR$/app_sample_xutils/app_sample_xutils.iml" />
       <module fileurl="file://$PROJECT_DIR$/lib_common/lib_common.iml" filepath="$PROJECT_DIR$/lib_common/lib_common.iml" />
       <module fileurl="file://$PROJECT_DIR$/lib_octopus/lib_octopus.iml" filepath="$PROJECT_DIR$/lib_octopus/lib_octopus.iml" />
+      <module fileurl="file://$PROJECT_DIR$/lib_widget/lib_widget.iml" filepath="$PROJECT_DIR$/lib_widget/lib_widget.iml" />
       <module fileurl="file://$PROJECT_DIR$/lib_xutils/lib_xutils.iml" filepath="$PROJECT_DIR$/lib_xutils/lib_xutils.iml" />
     </modules>
   </component>
