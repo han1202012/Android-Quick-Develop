@@ -1,11 +1,11 @@
 package cn.org.octopus.myquick.utils;
 
-import android.content.Context;
-import android.content.SharedPreferences;
-
 import java.lang.reflect.InvocationTargetException;
 import java.lang.reflect.Method;
 import java.util.Map;
+
+import android.content.Context;
+import android.content.SharedPreferences;
 
 public class SPUtils
 {

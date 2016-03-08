@@ -5,7 +5,7 @@ import android.util.Log;
 /**
  * Log统一管理类
  * 
- * @author 韩曙亮
+ * @author way
  * 
  */
 public class L
