@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="drop_down_list_footer_font_color">#000000</color>
+    <color name="drop_down_list_header_font_color">#000000</color>
+    <color name="drop_down_list_header_second_font_color">#000000</color>
+    <declare-styleable name="drop_down_list_attr"><attr format="boolean" name="isDropDownStyle"/><attr format="boolean" name="isOnBottomStyle"/><attr format="boolean" name="isAutoLoadOnBottom"/></declare-styleable>
+    <dimen name="drop_down_list_footer_button_height">48dp</dimen>
+    <dimen name="drop_down_list_footer_button_margin_left">8dp</dimen>
+    <dimen name="drop_down_list_footer_progress_bar_height">36dp</dimen>
+    <dimen name="drop_down_list_header_padding_bottom">15dp</dimen>
+    <dimen name="drop_down_list_header_padding_top">12dp</dimen>
+    <dimen name="drop_down_list_header_progress_bar_height">36dp</dimen>
+    <dimen name="drop_down_list_header_release_min_distance">20dp</dimen>
+    <string name="drop_down_list_footer_default_text">More</string>
+    <string name="drop_down_list_footer_loading_text">Loading…</string>
+    <string name="drop_down_list_footer_no_more_text">No More</string>
+    <string name="drop_down_list_header_default_text">Click to refresh…</string>
+    <string name="drop_down_list_header_loading_text">Loading…</string>
+    <string name="drop_down_list_header_pull_text">Drop Down to refresh…</string>
+    <string name="drop_down_list_header_release_text">Release to refresh…</string>
+    <string name="image_content">Image</string>
+    <style name="drop_down_list_footer_font_style">
+        <item name="android:textColor">@color/drop_down_list_footer_font_color</item>
+        <item name="android:textAppearance">?android:attr/textAppearanceMedium</item>
+    </style>
+    <style name="drop_down_list_footer_progress_bar_style">
+        <item name="android:minHeight">@dimen/drop_down_list_footer_progress_bar_height</item>
+        <item name="android:maxHeight">@dimen/drop_down_list_footer_progress_bar_height</item>
+    </style>
+    <style name="drop_down_list_header_font_style">
+        <item name="android:textColor">@color/drop_down_list_header_font_color</item>
+        <item name="android:textAppearance">?android:attr/textAppearanceMedium</item>
+    </style>
+    <style name="drop_down_list_header_progress_bar_style">
+        <item name="android:minHeight">@dimen/drop_down_list_header_progress_bar_height</item>
+        <item name="android:maxHeight">@dimen/drop_down_list_header_progress_bar_height</item>
+    </style>
+    <style name="drop_down_list_header_second_font_style">
+        <item name="android:textColor">@color/drop_down_list_header_second_font_color</item>
+        <item name="android:textAppearance">?android:attr/textAppearanceSmall</item>
+    </style>
+</resources>

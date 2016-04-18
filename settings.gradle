@@ -1,2 +1,2 @@
-include ':app_sample', ':lib_octopus', ':lib_xutils', ':app_sample_xutils', ':app_sample_rebound', ':lib_widget'
+include ':app_sample', ':lib_octopus', ':lib_xutils', ':app_sample_xutils', ':app_sample_rebound', ':lib_widget', ':lib_universal-image-loader'
 include ':lib_common'
