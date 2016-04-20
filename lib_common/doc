@@ -1,1 +1,110 @@
 官方网站 : https://github.com/forkothers/android-common
+
+Trineaandroid-common-lib
+
+关于我，欢迎关注
+微博：Trinea    主页：trinea.cn    邮箱：trinea.cn#gmail.com    微信：codek2
+主要包括：缓存(图片缓存、预取缓存、网络缓存)、公共View(下拉及底部加载更多ListView、底部加载更多ScrollView、滑动一页Gallery)及Android常用工具类(网络、下载、Android资源操作、shell、文件、Json、随机数、Collection等等)。
+示例源码：TrineaAndroidDemo。
+使        用：拉取代码导入IDE，右击你的工程->properties->Android，在library中选择TrineaAndroidCommon。
+Api Guide：TrineaAndroidCommon API Guide。
+
+示例APK:
+
+从Google Play下载  从Baidu手机助手下载  从360手机助手下载  从小米应用商店下载  二维码扫描下载 本地下载
+
+一. 缓存类
+
+主要特性：(1).使用简单 (2).轻松获取及预取取新图片 (3).包含二级缓存 (4).可选择多种缓存算法(FIFO、LIFO、LRU、MRU、LFU、MFU等13种)或自定义缓存算法 (5).可方便的保存及初始化恢复数据 (6).省流量性能佳(有且仅有一个线程获取图片) (7).支持http请求header设置及不同类型网络处理(8).可根据系统配置初始化缓存 (9).扩展性强 (10).支持等待队列 (11)包含map的大多数接口。
+
+1. 图片缓存
+
+使用见：图片缓存的使用
+适用：获取图片较多且图片使用频繁的应用，包含二级缓存，如新浪微博、twitter、微信头像、美丽说、蘑菇街、花瓣、淘宝等等。效果图如下：
+ImageCahe
+
+2. 图片SD卡缓存
+
+使用见：图片SD卡缓存的使用
+适用：应用中获取图片较多且图片较大的情况。需要二级缓存及ListView或GridView图片加载推荐使用上面的ImageCache。效果图如下：
+ImageSDCardCache
+
+3. 网络缓存
+
+使用见：Android网络缓存
+适用：网络获取内容不大的应用，尤其是api接口数据，如新浪微博、twitter的timeline、微信公众账号发送的内容等等。效果图如下：
+HttpCache
+
+4. 预取数据缓存
+
+使用见：预取数据缓存
+缓存类关系图如下：其中HttpCache为后续计划的http缓存 Image Cache
+
+二. 公用的view
+
+1. 下拉刷新及滚动到底部加载更多的Listview
+
+使用: 下拉刷新及滚动到底部加载更多listview的使用
+实现原理: http://trinea.iteye.com/blog/1562281。效果图如下：
+DropDownListView
+
+2. 滑动一页(一个Item)的Gallery
+
+使用及实现原理：滑动一页(一个Item)的Gallery的使用。效果图如下：
+ViewPager1 ViewPager2
+
+3. 滑动到底部或顶部响应的ScrollView
+
+使用及实现原理: 滚动到底部或顶部响应的ScrollView使用。效果图如下：
+ScrollView
+
+三. 工具类
+
+具体介绍可见：Android常用工具类
+目前包括HttpUtils、DownloadManagerPro、ShellUtils、PackageUtils、PreferencesUtils、JSONUtils、FileUtils、ResourceUtils、StringUtils、ParcelUtils、RandomUtils、ArrayUtils、ImageUtils、ListUtils、MapUtils、ObjectUtils、SerializeUtils、SystemUtils、TimeUtils。
+
+
+1. Android系统下载管理DownloadManager使用
+
+使用示例：Android系统下载管理DownloadManager功能介绍及使用示例
+功能扩展：Android下载管理DownloadManager功能扩展和bug修改 效果图如下：
+downloadManagerDemo
+
+2. Android APK root权限静默安装
+
+使用示例：Android APK root权限静默安装
+
+3. Android root权限
+
+直接调用ShellUtils.execCommand方法
+
+4. 图片工具类
+
+(1)Drawable、Bitmap、byte数组相互转换; (2)根据url获得InputStream、Drawable、Bitmap
+更多工具类介绍见Android常用工具类
+
+Proguard
+
+-keep class cn.trinea.android.** { *; }
+-keepclassmembers class cn.trinea.android.** { *; }
+-dontwarn cn.trinea.android.**
+Download
+
+Gradle:
+
+compile 'cn.trinea.android.common:trinea-android-common:4.2.15'
+License
+
+Copyright 2013 trinea.cn
+
+Licensed under the Apache License, Version 2.0 (the "License");
+you may not use this file except in compliance with the License.
+You may obtain a copy of the License at
+
+   http://www.apache.org/licenses/LICENSE-2.0
+
+Unless required by applicable law or agreed to in writing, software
+distributed under the License is distributed on an "AS IS" BASIS,
+WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+See the License for the specific language governing permissions and
+limitations under the License.
