@@ -11,6 +11,7 @@
             <option value="$PROJECT_DIR$" />
             <option value="$PROJECT_DIR$/app_sample" />
             <option value="$PROJECT_DIR$/app_sample_rebound" />
+            <option value="$PROJECT_DIR$/app_sample_universal-image-loader" />
             <option value="$PROJECT_DIR$/app_sample_xutils" />
             <option value="$PROJECT_DIR$/lib_common" />
             <option value="$PROJECT_DIR$/lib_highlight" />
@@ -18,6 +19,7 @@
             <option value="$PROJECT_DIR$/lib_universal-image-loader" />
             <option value="$PROJECT_DIR$/lib_widget" />
             <option value="$PROJECT_DIR$/lib_xutils" />
+            <option value="$PROJECT_DIR$/library" />
           </set>
         </option>
       </GradleProjectSettings>

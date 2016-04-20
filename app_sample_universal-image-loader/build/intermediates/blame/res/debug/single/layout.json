@@ -1,0 +1,46 @@
+[
+    {
+        "merged": "C:\\hanshuliang\\develop\\workspace\\as\\Android-Universal-Image-Loader\\sample\\build\\intermediates\\res\\merged\\debug\\layout\\widget.xml",
+        "source": "C:\\hanshuliang\\develop\\workspace\\as\\Android-Universal-Image-Loader\\sample\\src\\main\\res\\layout\\widget.xml"
+    },
+    {
+        "merged": "C:\\hanshuliang\\develop\\workspace\\as\\Android-Universal-Image-Loader\\sample\\build\\intermediates\\res\\merged\\debug\\layout\\fr_image_pager.xml",
+        "source": "C:\\hanshuliang\\develop\\workspace\\as\\Android-Universal-Image-Loader\\sample\\src\\main\\res\\layout\\fr_image_pager.xml"
+    },
+    {
+        "merged": "C:\\hanshuliang\\develop\\workspace\\as\\Android-Universal-Image-Loader\\sample\\build\\intermediates\\res\\merged\\debug\\layout\\item_gallery_image.xml",
+        "source": "C:\\hanshuliang\\develop\\workspace\\as\\Android-Universal-Image-Loader\\sample\\src\\main\\res\\layout\\item_gallery_image.xml"
+    },
+    {
+        "merged": "C:\\hanshuliang\\develop\\workspace\\as\\Android-Universal-Image-Loader\\sample\\build\\intermediates\\res\\merged\\debug\\layout\\fr_image_gallery.xml",
+        "source": "C:\\hanshuliang\\develop\\workspace\\as\\Android-Universal-Image-Loader\\sample\\src\\main\\res\\layout\\fr_image_gallery.xml"
+    },
+    {
+        "merged": "C:\\hanshuliang\\develop\\workspace\\as\\Android-Universal-Image-Loader\\sample\\build\\intermediates\\res\\merged\\debug\\layout\\ac_home.xml",
+        "source": "C:\\hanshuliang\\develop\\workspace\\as\\Android-Universal-Image-Loader\\sample\\src\\main\\res\\layout\\ac_home.xml"
+    },
+    {
+        "merged": "C:\\hanshuliang\\develop\\workspace\\as\\Android-Universal-Image-Loader\\sample\\build\\intermediates\\res\\merged\\debug\\layout\\item_grid_image.xml",
+        "source": "C:\\hanshuliang\\develop\\workspace\\as\\Android-Universal-Image-Loader\\sample\\src\\main\\res\\layout\\item_grid_image.xml"
+    },
+    {
+        "merged": "C:\\hanshuliang\\develop\\workspace\\as\\Android-Universal-Image-Loader\\sample\\build\\intermediates\\res\\merged\\debug\\layout\\item_list_image.xml",
+        "source": "C:\\hanshuliang\\develop\\workspace\\as\\Android-Universal-Image-Loader\\sample\\src\\main\\res\\layout\\item_list_image.xml"
+    },
+    {
+        "merged": "C:\\hanshuliang\\develop\\workspace\\as\\Android-Universal-Image-Loader\\sample\\build\\intermediates\\res\\merged\\debug\\layout\\fr_image_list.xml",
+        "source": "C:\\hanshuliang\\develop\\workspace\\as\\Android-Universal-Image-Loader\\sample\\src\\main\\res\\layout\\fr_image_list.xml"
+    },
+    {
+        "merged": "C:\\hanshuliang\\develop\\workspace\\as\\Android-Universal-Image-Loader\\sample\\build\\intermediates\\res\\merged\\debug\\layout\\fr_image_grid.xml",
+        "source": "C:\\hanshuliang\\develop\\workspace\\as\\Android-Universal-Image-Loader\\sample\\src\\main\\res\\layout\\fr_image_grid.xml"
+    },
+    {
+        "merged": "C:\\hanshuliang\\develop\\workspace\\as\\Android-Universal-Image-Loader\\sample\\build\\intermediates\\res\\merged\\debug\\layout\\ac_complex.xml",
+        "source": "C:\\hanshuliang\\develop\\workspace\\as\\Android-Universal-Image-Loader\\sample\\src\\main\\res\\layout\\ac_complex.xml"
+    },
+    {
+        "merged": "C:\\hanshuliang\\develop\\workspace\\as\\Android-Universal-Image-Loader\\sample\\build\\intermediates\\res\\merged\\debug\\layout\\item_pager_image.xml",
+        "source": "C:\\hanshuliang\\develop\\workspace\\as\\Android-Universal-Image-Loader\\sample\\src\\main\\res\\layout\\item_pager_image.xml"
+    }
+]

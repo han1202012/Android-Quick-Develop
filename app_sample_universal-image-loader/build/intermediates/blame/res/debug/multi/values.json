@@ -1,0 +1,387 @@
+[
+    {
+        "outputFile": "C:\\hanshuliang\\develop\\workspace\\as\\Android-Universal-Image-Loader\\sample\\build\\intermediates\\res\\merged\\debug\\values\\values.xml",
+        "map": [
+            {
+                "to": {
+                    "startLine": 2,
+                    "startColumn": 4,
+                    "startOffset": 55,
+                    "endColumn": 59,
+                    "endOffset": 110
+                },
+                "from": {
+                    "file": "C:\\hanshuliang\\develop\\workspace\\as\\Android-Universal-Image-Loader\\sample\\src\\main\\res\\values\\strings.xml",
+                    "position": {
+                        "startLine": 9,
+                        "startColumn": 1,
+                        "startOffset": 405,
+                        "endColumn": 56,
+                        "endOffset": 460
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 3,
+                    "startColumn": 4,
+                    "startOffset": 115,
+                    "endColumn": 71,
+                    "endOffset": 182
+                },
+                "from": {
+                    "file": "C:\\hanshuliang\\develop\\workspace\\as\\Android-Universal-Image-Loader\\sample\\src\\main\\res\\values\\strings.xml",
+                    "position": {
+                        "startLine": 8,
+                        "startColumn": 1,
+                        "startOffset": 335,
+                        "endColumn": 68,
+                        "endOffset": 402
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 4,
+                    "startColumn": 4,
+                    "startOffset": 187,
+                    "endColumn": 65,
+                    "endOffset": 248
+                },
+                "from": {
+                    "file": "C:\\hanshuliang\\develop\\workspace\\as\\Android-Universal-Image-Loader\\sample\\src\\main\\res\\values\\strings.xml",
+                    "position": {
+                        "startLine": 6,
+                        "startColumn": 1,
+                        "startOffset": 205,
+                        "endColumn": 62,
+                        "endOffset": 266
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 5,
+                    "startColumn": 4,
+                    "startOffset": 253,
+                    "endColumn": 65,
+                    "endOffset": 314
+                },
+                "from": {
+                    "file": "C:\\hanshuliang\\develop\\workspace\\as\\Android-Universal-Image-Loader\\sample\\src\\main\\res\\values\\strings.xml",
+                    "position": {
+                        "startLine": 5,
+                        "startColumn": 1,
+                        "startOffset": 141,
+                        "endColumn": 62,
+                        "endOffset": 202
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 6,
+                    "startColumn": 4,
+                    "startOffset": 319,
+                    "endColumn": 67,
+                    "endOffset": 382
+                },
+                "from": {
+                    "file": "C:\\hanshuliang\\develop\\workspace\\as\\Android-Universal-Image-Loader\\sample\\src\\main\\res\\values\\strings.xml",
+                    "position": {
+                        "startLine": 7,
+                        "startColumn": 1,
+                        "startOffset": 269,
+                        "endColumn": 64,
+                        "endOffset": 332
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 7,
+                    "startColumn": 4,
+                    "startOffset": 387,
+                    "endColumn": 59,
+                    "endOffset": 442
+                },
+                "from": {
+                    "file": "C:\\hanshuliang\\develop\\workspace\\as\\Android-Universal-Image-Loader\\sample\\src\\main\\res\\values\\strings.xml",
+                    "position": {
+                        "startLine": 4,
+                        "startColumn": 1,
+                        "startOffset": 83,
+                        "endColumn": 56,
+                        "endOffset": 138
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 8,
+                    "startColumn": 4,
+                    "startOffset": 447,
+                    "endColumn": 56,
+                    "endOffset": 499
+                },
+                "from": {
+                    "file": "C:\\hanshuliang\\develop\\workspace\\as\\Android-Universal-Image-Loader\\sample\\src\\main\\res\\values\\strings.xml",
+                    "position": {
+                        "startLine": 15,
+                        "startColumn": 1,
+                        "startOffset": 692,
+                        "endColumn": 53,
+                        "endOffset": 744
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 9,
+                    "startColumn": 4,
+                    "startOffset": 504,
+                    "endColumn": 54,
+                    "endOffset": 554
+                },
+                "from": {
+                    "file": "C:\\hanshuliang\\develop\\workspace\\as\\Android-Universal-Image-Loader\\sample\\src\\main\\res\\values\\strings.xml",
+                    "position": {
+                        "startLine": 13,
+                        "startColumn": 1,
+                        "startOffset": 584,
+                        "endColumn": 51,
+                        "endOffset": 634
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 10,
+                    "startColumn": 4,
+                    "startOffset": 559,
+                    "endColumn": 54,
+                    "endOffset": 609
+                },
+                "from": {
+                    "file": "C:\\hanshuliang\\develop\\workspace\\as\\Android-Universal-Image-Loader\\sample\\src\\main\\res\\values\\strings.xml",
+                    "position": {
+                        "startLine": 12,
+                        "startColumn": 1,
+                        "startOffset": 531,
+                        "endColumn": 51,
+                        "endOffset": 581
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 11,
+                    "startColumn": 4,
+                    "startOffset": 614,
+                    "endColumn": 56,
+                    "endOffset": 666
+                },
+                "from": {
+                    "file": "C:\\hanshuliang\\develop\\workspace\\as\\Android-Universal-Image-Loader\\sample\\src\\main\\res\\values\\strings.xml",
+                    "position": {
+                        "startLine": 14,
+                        "startColumn": 1,
+                        "startOffset": 637,
+                        "endColumn": 53,
+                        "endOffset": 689
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 12,
+                    "startColumn": 4,
+                    "startOffset": 671,
+                    "endColumn": 80,
+                    "endOffset": 747
+                },
+                "from": {
+                    "file": "C:\\hanshuliang\\develop\\workspace\\as\\Android-Universal-Image-Loader\\sample\\src\\main\\res\\values\\strings.xml",
+                    "position": {
+                        "startLine": 16,
+                        "startColumn": 1,
+                        "startOffset": 747,
+                        "endColumn": 77,
+                        "endOffset": 823
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 13,
+                    "startColumn": 4,
+                    "startOffset": 752,
+                    "endColumn": 45,
+                    "endOffset": 793
+                },
+                "from": {
+                    "file": "C:\\hanshuliang\\develop\\workspace\\as\\Android-Universal-Image-Loader\\sample\\src\\main\\res\\values\\strings.xml",
+                    "position": {
+                        "startLine": 27,
+                        "startColumn": 1,
+                        "startOffset": 1226,
+                        "endColumn": 42,
+                        "endOffset": 1267
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 14,
+                    "startColumn": 4,
+                    "startOffset": 798,
+                    "endColumn": 51,
+                    "endOffset": 845
+                },
+                "from": {
+                    "file": "C:\\hanshuliang\\develop\\workspace\\as\\Android-Universal-Image-Loader\\sample\\src\\main\\res\\values\\strings.xml",
+                    "position": {
+                        "startLine": 11,
+                        "startColumn": 1,
+                        "startOffset": 481,
+                        "endColumn": 48,
+                        "endOffset": 528
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 15,
+                    "startColumn": 4,
+                    "startOffset": 850,
+                    "endColumn": 71,
+                    "endOffset": 917
+                },
+                "from": {
+                    "file": "C:\\hanshuliang\\develop\\workspace\\as\\Android-Universal-Image-Loader\\sample\\src\\main\\res\\values\\strings.xml",
+                    "position": {
+                        "startLine": 22,
+                        "startColumn": 1,
+                        "startOffset": 988,
+                        "endColumn": 68,
+                        "endOffset": 1055
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 16,
+                    "startColumn": 4,
+                    "startOffset": 922,
+                    "endColumn": 75,
+                    "endOffset": 993
+                },
+                "from": {
+                    "file": "C:\\hanshuliang\\develop\\workspace\\as\\Android-Universal-Image-Loader\\sample\\src\\main\\res\\values\\strings.xml",
+                    "position": {
+                        "startLine": 21,
+                        "startColumn": 1,
+                        "startOffset": 914,
+                        "endColumn": 72,
+                        "endOffset": 985
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 17,
+                    "startColumn": 4,
+                    "startOffset": 998,
+                    "endColumn": 67,
+                    "endOffset": 1061
+                },
+                "from": {
+                    "file": "C:\\hanshuliang\\develop\\workspace\\as\\Android-Universal-Image-Loader\\sample\\src\\main\\res\\values\\strings.xml",
+                    "position": {
+                        "startLine": 24,
+                        "startColumn": 1,
+                        "startOffset": 1126,
+                        "endColumn": 64,
+                        "endOffset": 1189
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 18,
+                    "startColumn": 4,
+                    "startOffset": 1066,
+                    "endColumn": 69,
+                    "endOffset": 1131
+                },
+                "from": {
+                    "file": "C:\\hanshuliang\\develop\\workspace\\as\\Android-Universal-Image-Loader\\sample\\src\\main\\res\\values\\strings.xml",
+                    "position": {
+                        "startLine": 23,
+                        "startColumn": 1,
+                        "startOffset": 1058,
+                        "endColumn": 66,
+                        "endOffset": 1123
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 19,
+                    "startColumn": 4,
+                    "startOffset": 1136,
+                    "endColumn": 43,
+                    "endOffset": 1175
+                },
+                "from": {
+                    "file": "C:\\hanshuliang\\develop\\workspace\\as\\Android-Universal-Image-Loader\\sample\\src\\main\\res\\values\\strings.xml",
+                    "position": {
+                        "startLine": 19,
+                        "startColumn": 1,
+                        "startOffset": 870,
+                        "endColumn": 40,
+                        "endOffset": 909
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 20,
+                    "startColumn": 4,
+                    "startOffset": 1180,
+                    "endColumn": 43,
+                    "endOffset": 1219
+                },
+                "from": {
+                    "file": "C:\\hanshuliang\\develop\\workspace\\as\\Android-Universal-Image-Loader\\sample\\src\\main\\res\\values\\strings.xml",
+                    "position": {
+                        "startLine": 18,
+                        "startColumn": 1,
+                        "startOffset": 828,
+                        "endColumn": 40,
+                        "endOffset": 867
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 21,
+                    "startColumn": 4,
+                    "startOffset": 1224,
+                    "endColumn": 90,
+                    "endOffset": 1310
+                },
+                "from": {
+                    "file": "C:\\hanshuliang\\develop\\workspace\\as\\Android-Universal-Image-Loader\\sample\\src\\main\\res\\values\\styles.xml",
+                    "position": {
+                        "startLine": 3,
+                        "startColumn": 4,
+                        "startOffset": 59,
+                        "endColumn": 90,
+                        "endOffset": 145
+                    }
+                }
+            }
+        ]
+    }
+]

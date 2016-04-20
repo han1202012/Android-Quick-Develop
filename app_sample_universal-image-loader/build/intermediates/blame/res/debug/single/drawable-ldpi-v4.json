@@ -1,0 +1,18 @@
+[
+    {
+        "merged": "C:\\hanshuliang\\develop\\workspace\\as\\Android-Universal-Image-Loader\\sample\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi-v4\\ic_empty.png",
+        "source": "C:\\hanshuliang\\develop\\workspace\\as\\Android-Universal-Image-Loader\\sample\\src\\main\\res\\drawable-ldpi\\ic_empty.png"
+    },
+    {
+        "merged": "C:\\hanshuliang\\develop\\workspace\\as\\Android-Universal-Image-Loader\\sample\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi-v4\\ic_launcher.png",
+        "source": "C:\\hanshuliang\\develop\\workspace\\as\\Android-Universal-Image-Loader\\sample\\src\\main\\res\\drawable-ldpi\\ic_launcher.png"
+    },
+    {
+        "merged": "C:\\hanshuliang\\develop\\workspace\\as\\Android-Universal-Image-Loader\\sample\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi-v4\\ic_error.png",
+        "source": "C:\\hanshuliang\\develop\\workspace\\as\\Android-Universal-Image-Loader\\sample\\src\\main\\res\\drawable-ldpi\\ic_error.png"
+    },
+    {
+        "merged": "C:\\hanshuliang\\develop\\workspace\\as\\Android-Universal-Image-Loader\\sample\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi-v4\\ic_stub.png",
+        "source": "C:\\hanshuliang\\develop\\workspace\\as\\Android-Universal-Image-Loader\\sample\\src\\main\\res\\drawable-ldpi\\ic_stub.png"
+    }
+]
