@@ -25,7 +25,7 @@ import java.io.IOException;
 import static android.os.Environment.MEDIA_MOUNTED;
 
 /**
- * Provides application storage paths
+ * 提供应用存储路径
  *
  * @author Sergey Tarasevich (nostra13[at]gmail[dot]com)
  * @since 1.0.0
@@ -38,16 +38,16 @@ public final class StorageUtils {
 	private StorageUtils() {
 	}
 
-	/**
-	 * Returns application cache directory. Cache directory will be created on SD card
-	 * <i>("/Android/data/[app_package_name]/cache")</i> if card is mounted and app has appropriate permission. Else -
-	 * Android defines cache directory on device's file system.
-	 *
-	 * @param context Application context
-	 * @return Cache {@link File directory}.<br />
-	 * <b>NOTE:</b> Can be null in some unpredictable cases (if SD card is unmounted and
-	 * {@link android.content.Context#getCacheDir() Context.getCacheDir()} returns null).
-	 */
+    /**
+     * 返回应用的缓存目录. 缓存目录会在 SD 卡 (或对应的内存中的目录中 "/Android/data/[app_package_name]/cache")中创建.
+     * 如果在 SD 卡上, 需要满足 SD 卡已经挂载, 并且 app 有访问权限 的前提条件,
+     * 否则Android 需要在设备的文件系统中定义缓存目录.
+     *
+     * @param context Application context
+     * @return Cache {@link File directory}.<br />
+     * <b>注意:</b> 某些未知情况下可能会返回 null (如果 SD 卡没有挂载, 或者
+     * {@link android.content.Context#getCacheDir() Context.getCacheDir()} 返回 null).
+     */
 	public static File getCacheDirectory(Context context) {
 		return getCacheDirectory(context, true);
 	}
@@ -87,14 +87,14 @@ public final class StorageUtils {
 		return appCacheDir;
 	}
 
-	/**
-	 * Returns individual application cache directory (for only image caching from ImageLoader). Cache directory will be
-	 * created on SD card <i>("/Android/data/[app_package_name]/cache/uil-images")</i> if card is mounted and app has
-	 * appropriate permission. Else - Android defines cache directory on device's file system.
-	 *
-	 * @param context Application context
-	 * @return Cache {@link File directory}
-	 */
+    /**
+     * 获取应用缓存目录 (ImageLoader 的图片缓存目录).
+     * 如果 SD 卡被挂载, 并且 app 有访问权限, 缓存目录被宰 SD 卡中创建.
+     * 反之, SD 卡不可用, 就会在设备的文件系统创建缓存目录;
+     *
+     * @param context Application context
+     * @return Cache {@link File directory}
+     */
 	public static File getIndividualCacheDirectory(Context context) {
 		return getIndividualCacheDirectory(context, INDIVIDUAL_DIR_NAME);
 	}
@@ -127,6 +127,16 @@ public final class StorageUtils {
 	 * @param cacheDir Cache directory path (e.g.: "AppCacheDir", "AppDir/cache/images")
 	 * @return Cache {@link File directory}
 	 */
+
+    /**
+     * 获取指定应用的缓存目录.
+     * 如果 SD 卡被挂载, 并且 app 有访问权限, 缓存目录被宰 SD 卡中创建.
+     * 反之, SD 卡不可用, 就会在设备的文件系统创建缓存目录;
+     *
+     * @param context  Application context
+     * @param cacheDir 缓存目录路径 (e.g.: "AppCacheDir", "AppDir/cache/images")
+     * @return Cache {@link File directory}
+     */
 	public static File getOwnCacheDirectory(Context context, String cacheDir) {
 		File appCacheDir = null;
 		if (MEDIA_MOUNTED.equals(Environment.getExternalStorageState()) && hasExternalStoragePermission(context)) {
