@@ -1,6 +1,6 @@
 [
     {
-        "outputFile": "C:\\hanshuliang\\develop\\workspace\\as\\Android-Universal-Image-Loader\\sample\\build\\intermediates\\res\\merged\\debug\\values\\values.xml",
+        "outputFile": "/Users/hanshuliang/workspace/android_work/studio/Android-Quick-Develop/C:\\hanshuliang\\develop\\workspace\\as\\Android-Universal-Image-Loader\\sample\\build\\intermediates\\res\\merged\\debug\\values\\values.xml",
         "map": [
             {
                 "to": {
@@ -11,7 +11,7 @@
                     "endOffset": 110
                 },
                 "from": {
-                    "file": "C:\\hanshuliang\\develop\\workspace\\as\\Android-Universal-Image-Loader\\sample\\src\\main\\res\\values\\strings.xml",
+                    "file": "/Users/hanshuliang/workspace/android_work/studio/Android-Quick-Develop/C:\\hanshuliang\\develop\\workspace\\as\\Android-Universal-Image-Loader\\sample\\src\\main\\res\\values\\strings.xml",
                     "position": {
                         "startLine": 9,
                         "startColumn": 1,
@@ -30,7 +30,7 @@
                     "endOffset": 182
                 },
                 "from": {
-                    "file": "C:\\hanshuliang\\develop\\workspace\\as\\Android-Universal-Image-Loader\\sample\\src\\main\\res\\values\\strings.xml",
+                    "file": "/Users/hanshuliang/workspace/android_work/studio/Android-Quick-Develop/C:\\hanshuliang\\develop\\workspace\\as\\Android-Universal-Image-Loader\\sample\\src\\main\\res\\values\\strings.xml",
                     "position": {
                         "startLine": 8,
                         "startColumn": 1,
@@ -49,7 +49,7 @@
                     "endOffset": 248
                 },
                 "from": {
-                    "file": "C:\\hanshuliang\\develop\\workspace\\as\\Android-Universal-Image-Loader\\sample\\src\\main\\res\\values\\strings.xml",
+                    "file": "/Users/hanshuliang/workspace/android_work/studio/Android-Quick-Develop/C:\\hanshuliang\\develop\\workspace\\as\\Android-Universal-Image-Loader\\sample\\src\\main\\res\\values\\strings.xml",
                     "position": {
                         "startLine": 6,
                         "startColumn": 1,
@@ -68,7 +68,7 @@
                     "endOffset": 314
                 },
                 "from": {
-                    "file": "C:\\hanshuliang\\develop\\workspace\\as\\Android-Universal-Image-Loader\\sample\\src\\main\\res\\values\\strings.xml",
+                    "file": "/Users/hanshuliang/workspace/android_work/studio/Android-Quick-Develop/C:\\hanshuliang\\develop\\workspace\\as\\Android-Universal-Image-Loader\\sample\\src\\main\\res\\values\\strings.xml",
                     "position": {
                         "startLine": 5,
                         "startColumn": 1,
@@ -87,7 +87,7 @@
                     "endOffset": 382
                 },
                 "from": {
-                    "file": "C:\\hanshuliang\\develop\\workspace\\as\\Android-Universal-Image-Loader\\sample\\src\\main\\res\\values\\strings.xml",
+                    "file": "/Users/hanshuliang/workspace/android_work/studio/Android-Quick-Develop/C:\\hanshuliang\\develop\\workspace\\as\\Android-Universal-Image-Loader\\sample\\src\\main\\res\\values\\strings.xml",
                     "position": {
                         "startLine": 7,
                         "startColumn": 1,
@@ -106,7 +106,7 @@
                     "endOffset": 442
                 },
                 "from": {
-                    "file": "C:\\hanshuliang\\develop\\workspace\\as\\Android-Universal-Image-Loader\\sample\\src\\main\\res\\values\\strings.xml",
+                    "file": "/Users/hanshuliang/workspace/android_work/studio/Android-Quick-Develop/C:\\hanshuliang\\develop\\workspace\\as\\Android-Universal-Image-Loader\\sample\\src\\main\\res\\values\\strings.xml",
                     "position": {
                         "startLine": 4,
                         "startColumn": 1,
@@ -125,7 +125,7 @@
                     "endOffset": 499
                 },
                 "from": {
-                    "file": "C:\\hanshuliang\\develop\\workspace\\as\\Android-Universal-Image-Loader\\sample\\src\\main\\res\\values\\strings.xml",
+                    "file": "/Users/hanshuliang/workspace/android_work/studio/Android-Quick-Develop/C:\\hanshuliang\\develop\\workspace\\as\\Android-Universal-Image-Loader\\sample\\src\\main\\res\\values\\strings.xml",
                     "position": {
                         "startLine": 15,
                         "startColumn": 1,
@@ -144,7 +144,7 @@
                     "endOffset": 554
                 },
                 "from": {
-                    "file": "C:\\hanshuliang\\develop\\workspace\\as\\Android-Universal-Image-Loader\\sample\\src\\main\\res\\values\\strings.xml",
+                    "file": "/Users/hanshuliang/workspace/android_work/studio/Android-Quick-Develop/C:\\hanshuliang\\develop\\workspace\\as\\Android-Universal-Image-Loader\\sample\\src\\main\\res\\values\\strings.xml",
                     "position": {
                         "startLine": 13,
                         "startColumn": 1,
@@ -163,7 +163,7 @@
                     "endOffset": 609
                 },
                 "from": {
-                    "file": "C:\\hanshuliang\\develop\\workspace\\as\\Android-Universal-Image-Loader\\sample\\src\\main\\res\\values\\strings.xml",
+                    "file": "/Users/hanshuliang/workspace/android_work/studio/Android-Quick-Develop/C:\\hanshuliang\\develop\\workspace\\as\\Android-Universal-Image-Loader\\sample\\src\\main\\res\\values\\strings.xml",
                     "position": {
                         "startLine": 12,
                         "startColumn": 1,
@@ -182,7 +182,7 @@
                     "endOffset": 666
                 },
                 "from": {
-                    "file": "C:\\hanshuliang\\develop\\workspace\\as\\Android-Universal-Image-Loader\\sample\\src\\main\\res\\values\\strings.xml",
+                    "file": "/Users/hanshuliang/workspace/android_work/studio/Android-Quick-Develop/C:\\hanshuliang\\develop\\workspace\\as\\Android-Universal-Image-Loader\\sample\\src\\main\\res\\values\\strings.xml",
                     "position": {
                         "startLine": 14,
                         "startColumn": 1,
@@ -201,7 +201,7 @@
                     "endOffset": 747
                 },
                 "from": {
-                    "file": "C:\\hanshuliang\\develop\\workspace\\as\\Android-Universal-Image-Loader\\sample\\src\\main\\res\\values\\strings.xml",
+                    "file": "/Users/hanshuliang/workspace/android_work/studio/Android-Quick-Develop/C:\\hanshuliang\\develop\\workspace\\as\\Android-Universal-Image-Loader\\sample\\src\\main\\res\\values\\strings.xml",
                     "position": {
                         "startLine": 16,
                         "startColumn": 1,
@@ -220,7 +220,7 @@
                     "endOffset": 793
                 },
                 "from": {
-                    "file": "C:\\hanshuliang\\develop\\workspace\\as\\Android-Universal-Image-Loader\\sample\\src\\main\\res\\values\\strings.xml",
+                    "file": "/Users/hanshuliang/workspace/android_work/studio/Android-Quick-Develop/C:\\hanshuliang\\develop\\workspace\\as\\Android-Universal-Image-Loader\\sample\\src\\main\\res\\values\\strings.xml",
                     "position": {
                         "startLine": 27,
                         "startColumn": 1,
@@ -239,7 +239,7 @@
                     "endOffset": 845
                 },
                 "from": {
-                    "file": "C:\\hanshuliang\\develop\\workspace\\as\\Android-Universal-Image-Loader\\sample\\src\\main\\res\\values\\strings.xml",
+                    "file": "/Users/hanshuliang/workspace/android_work/studio/Android-Quick-Develop/C:\\hanshuliang\\develop\\workspace\\as\\Android-Universal-Image-Loader\\sample\\src\\main\\res\\values\\strings.xml",
                     "position": {
                         "startLine": 11,
                         "startColumn": 1,
@@ -258,7 +258,7 @@
                     "endOffset": 917
                 },
                 "from": {
-                    "file": "C:\\hanshuliang\\develop\\workspace\\as\\Android-Universal-Image-Loader\\sample\\src\\main\\res\\values\\strings.xml",
+                    "file": "/Users/hanshuliang/workspace/android_work/studio/Android-Quick-Develop/C:\\hanshuliang\\develop\\workspace\\as\\Android-Universal-Image-Loader\\sample\\src\\main\\res\\values\\strings.xml",
                     "position": {
                         "startLine": 22,
                         "startColumn": 1,
@@ -277,7 +277,7 @@
                     "endOffset": 993
                 },
                 "from": {
-                    "file": "C:\\hanshuliang\\develop\\workspace\\as\\Android-Universal-Image-Loader\\sample\\src\\main\\res\\values\\strings.xml",
+                    "file": "/Users/hanshuliang/workspace/android_work/studio/Android-Quick-Develop/C:\\hanshuliang\\develop\\workspace\\as\\Android-Universal-Image-Loader\\sample\\src\\main\\res\\values\\strings.xml",
                     "position": {
                         "startLine": 21,
                         "startColumn": 1,
@@ -296,7 +296,7 @@
                     "endOffset": 1061
                 },
                 "from": {
-                    "file": "C:\\hanshuliang\\develop\\workspace\\as\\Android-Universal-Image-Loader\\sample\\src\\main\\res\\values\\strings.xml",
+                    "file": "/Users/hanshuliang/workspace/android_work/studio/Android-Quick-Develop/C:\\hanshuliang\\develop\\workspace\\as\\Android-Universal-Image-Loader\\sample\\src\\main\\res\\values\\strings.xml",
                     "position": {
                         "startLine": 24,
                         "startColumn": 1,
@@ -315,7 +315,7 @@
                     "endOffset": 1131
                 },
                 "from": {
-                    "file": "C:\\hanshuliang\\develop\\workspace\\as\\Android-Universal-Image-Loader\\sample\\src\\main\\res\\values\\strings.xml",
+                    "file": "/Users/hanshuliang/workspace/android_work/studio/Android-Quick-Develop/C:\\hanshuliang\\develop\\workspace\\as\\Android-Universal-Image-Loader\\sample\\src\\main\\res\\values\\strings.xml",
                     "position": {
                         "startLine": 23,
                         "startColumn": 1,
@@ -334,7 +334,7 @@
                     "endOffset": 1175
                 },
                 "from": {
-                    "file": "C:\\hanshuliang\\develop\\workspace\\as\\Android-Universal-Image-Loader\\sample\\src\\main\\res\\values\\strings.xml",
+                    "file": "/Users/hanshuliang/workspace/android_work/studio/Android-Quick-Develop/C:\\hanshuliang\\develop\\workspace\\as\\Android-Universal-Image-Loader\\sample\\src\\main\\res\\values\\strings.xml",
                     "position": {
                         "startLine": 19,
                         "startColumn": 1,
@@ -353,7 +353,7 @@
                     "endOffset": 1219
                 },
                 "from": {
-                    "file": "C:\\hanshuliang\\develop\\workspace\\as\\Android-Universal-Image-Loader\\sample\\src\\main\\res\\values\\strings.xml",
+                    "file": "/Users/hanshuliang/workspace/android_work/studio/Android-Quick-Develop/C:\\hanshuliang\\develop\\workspace\\as\\Android-Universal-Image-Loader\\sample\\src\\main\\res\\values\\strings.xml",
                     "position": {
                         "startLine": 18,
                         "startColumn": 1,
@@ -372,13 +372,398 @@
                     "endOffset": 1310
                 },
                 "from": {
-                    "file": "C:\\hanshuliang\\develop\\workspace\\as\\Android-Universal-Image-Loader\\sample\\src\\main\\res\\values\\styles.xml",
+                    "file": "/Users/hanshuliang/workspace/android_work/studio/Android-Quick-Develop/C:\\hanshuliang\\develop\\workspace\\as\\Android-Universal-Image-Loader\\sample\\src\\main\\res\\values\\styles.xml",
                     "position": {
                         "startLine": 3,
                         "startColumn": 4,
                         "startOffset": 59,
                         "endColumn": 90,
                         "endOffset": 145
+                    }
+                }
+            }
+        ]
+    },
+    {
+        "outputFile": "/Users/hanshuliang/workspace/android_work/studio/Android-Quick-Develop/app_sample_universal-image-loader/build/intermediates/res/merged/debug/values/values.xml",
+        "map": [
+            {
+                "to": {
+                    "startLine": 2,
+                    "startColumn": 4,
+                    "startOffset": 55,
+                    "endColumn": 59,
+                    "endOffset": 110
+                },
+                "from": {
+                    "file": "/Users/hanshuliang/workspace/android_work/studio/Android-Quick-Develop/app_sample_universal-image-loader/src/main/res/values/strings.xml",
+                    "position": {
+                        "startLine": 9,
+                        "startColumn": 1,
+                        "startOffset": 396,
+                        "endColumn": 56,
+                        "endOffset": 451
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 3,
+                    "startColumn": 4,
+                    "startOffset": 115,
+                    "endColumn": 71,
+                    "endOffset": 182
+                },
+                "from": {
+                    "file": "/Users/hanshuliang/workspace/android_work/studio/Android-Quick-Develop/app_sample_universal-image-loader/src/main/res/values/strings.xml",
+                    "position": {
+                        "startLine": 8,
+                        "startColumn": 1,
+                        "startOffset": 327,
+                        "endColumn": 68,
+                        "endOffset": 394
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 4,
+                    "startColumn": 4,
+                    "startOffset": 187,
+                    "endColumn": 65,
+                    "endOffset": 248
+                },
+                "from": {
+                    "file": "/Users/hanshuliang/workspace/android_work/studio/Android-Quick-Develop/app_sample_universal-image-loader/src/main/res/values/strings.xml",
+                    "position": {
+                        "startLine": 6,
+                        "startColumn": 1,
+                        "startOffset": 199,
+                        "endColumn": 62,
+                        "endOffset": 260
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 5,
+                    "startColumn": 4,
+                    "startOffset": 253,
+                    "endColumn": 65,
+                    "endOffset": 314
+                },
+                "from": {
+                    "file": "/Users/hanshuliang/workspace/android_work/studio/Android-Quick-Develop/app_sample_universal-image-loader/src/main/res/values/strings.xml",
+                    "position": {
+                        "startLine": 5,
+                        "startColumn": 1,
+                        "startOffset": 136,
+                        "endColumn": 62,
+                        "endOffset": 197
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 6,
+                    "startColumn": 4,
+                    "startOffset": 319,
+                    "endColumn": 67,
+                    "endOffset": 382
+                },
+                "from": {
+                    "file": "/Users/hanshuliang/workspace/android_work/studio/Android-Quick-Develop/app_sample_universal-image-loader/src/main/res/values/strings.xml",
+                    "position": {
+                        "startLine": 7,
+                        "startColumn": 1,
+                        "startOffset": 262,
+                        "endColumn": 64,
+                        "endOffset": 325
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 7,
+                    "startColumn": 4,
+                    "startOffset": 387,
+                    "endColumn": 59,
+                    "endOffset": 442
+                },
+                "from": {
+                    "file": "/Users/hanshuliang/workspace/android_work/studio/Android-Quick-Develop/app_sample_universal-image-loader/src/main/res/values/strings.xml",
+                    "position": {
+                        "startLine": 4,
+                        "startColumn": 1,
+                        "startOffset": 79,
+                        "endColumn": 56,
+                        "endOffset": 134
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 8,
+                    "startColumn": 4,
+                    "startOffset": 447,
+                    "endColumn": 56,
+                    "endOffset": 499
+                },
+                "from": {
+                    "file": "/Users/hanshuliang/workspace/android_work/studio/Android-Quick-Develop/app_sample_universal-image-loader/src/main/res/values/strings.xml",
+                    "position": {
+                        "startLine": 15,
+                        "startColumn": 1,
+                        "startOffset": 677,
+                        "endColumn": 53,
+                        "endOffset": 729
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 9,
+                    "startColumn": 4,
+                    "startOffset": 504,
+                    "endColumn": 54,
+                    "endOffset": 554
+                },
+                "from": {
+                    "file": "/Users/hanshuliang/workspace/android_work/studio/Android-Quick-Develop/app_sample_universal-image-loader/src/main/res/values/strings.xml",
+                    "position": {
+                        "startLine": 13,
+                        "startColumn": 1,
+                        "startOffset": 571,
+                        "endColumn": 51,
+                        "endOffset": 621
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 10,
+                    "startColumn": 4,
+                    "startOffset": 559,
+                    "endColumn": 54,
+                    "endOffset": 609
+                },
+                "from": {
+                    "file": "/Users/hanshuliang/workspace/android_work/studio/Android-Quick-Develop/app_sample_universal-image-loader/src/main/res/values/strings.xml",
+                    "position": {
+                        "startLine": 12,
+                        "startColumn": 1,
+                        "startOffset": 519,
+                        "endColumn": 51,
+                        "endOffset": 569
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 11,
+                    "startColumn": 4,
+                    "startOffset": 614,
+                    "endColumn": 56,
+                    "endOffset": 666
+                },
+                "from": {
+                    "file": "/Users/hanshuliang/workspace/android_work/studio/Android-Quick-Develop/app_sample_universal-image-loader/src/main/res/values/strings.xml",
+                    "position": {
+                        "startLine": 14,
+                        "startColumn": 1,
+                        "startOffset": 623,
+                        "endColumn": 53,
+                        "endOffset": 675
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 12,
+                    "startColumn": 4,
+                    "startOffset": 671,
+                    "endColumn": 80,
+                    "endOffset": 747
+                },
+                "from": {
+                    "file": "/Users/hanshuliang/workspace/android_work/studio/Android-Quick-Develop/app_sample_universal-image-loader/src/main/res/values/strings.xml",
+                    "position": {
+                        "startLine": 16,
+                        "startColumn": 1,
+                        "startOffset": 731,
+                        "endColumn": 77,
+                        "endOffset": 807
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 13,
+                    "startColumn": 4,
+                    "startOffset": 752,
+                    "endColumn": 45,
+                    "endOffset": 793
+                },
+                "from": {
+                    "file": "/Users/hanshuliang/workspace/android_work/studio/Android-Quick-Develop/app_sample_universal-image-loader/src/main/res/values/strings.xml",
+                    "position": {
+                        "startLine": 27,
+                        "startColumn": 1,
+                        "startOffset": 1199,
+                        "endColumn": 42,
+                        "endOffset": 1240
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 14,
+                    "startColumn": 4,
+                    "startOffset": 798,
+                    "endColumn": 51,
+                    "endOffset": 845
+                },
+                "from": {
+                    "file": "/Users/hanshuliang/workspace/android_work/studio/Android-Quick-Develop/app_sample_universal-image-loader/src/main/res/values/strings.xml",
+                    "position": {
+                        "startLine": 11,
+                        "startColumn": 1,
+                        "startOffset": 470,
+                        "endColumn": 48,
+                        "endOffset": 517
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 15,
+                    "startColumn": 4,
+                    "startOffset": 850,
+                    "endColumn": 71,
+                    "endOffset": 917
+                },
+                "from": {
+                    "file": "/Users/hanshuliang/workspace/android_work/studio/Android-Quick-Develop/app_sample_universal-image-loader/src/main/res/values/strings.xml",
+                    "position": {
+                        "startLine": 22,
+                        "startColumn": 1,
+                        "startOffset": 966,
+                        "endColumn": 68,
+                        "endOffset": 1033
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 16,
+                    "startColumn": 4,
+                    "startOffset": 922,
+                    "endColumn": 75,
+                    "endOffset": 993
+                },
+                "from": {
+                    "file": "/Users/hanshuliang/workspace/android_work/studio/Android-Quick-Develop/app_sample_universal-image-loader/src/main/res/values/strings.xml",
+                    "position": {
+                        "startLine": 21,
+                        "startColumn": 1,
+                        "startOffset": 893,
+                        "endColumn": 72,
+                        "endOffset": 964
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 17,
+                    "startColumn": 4,
+                    "startOffset": 998,
+                    "endColumn": 67,
+                    "endOffset": 1061
+                },
+                "from": {
+                    "file": "/Users/hanshuliang/workspace/android_work/studio/Android-Quick-Develop/app_sample_universal-image-loader/src/main/res/values/strings.xml",
+                    "position": {
+                        "startLine": 24,
+                        "startColumn": 1,
+                        "startOffset": 1102,
+                        "endColumn": 64,
+                        "endOffset": 1165
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 18,
+                    "startColumn": 4,
+                    "startOffset": 1066,
+                    "endColumn": 69,
+                    "endOffset": 1131
+                },
+                "from": {
+                    "file": "/Users/hanshuliang/workspace/android_work/studio/Android-Quick-Develop/app_sample_universal-image-loader/src/main/res/values/strings.xml",
+                    "position": {
+                        "startLine": 23,
+                        "startColumn": 1,
+                        "startOffset": 1035,
+                        "endColumn": 66,
+                        "endOffset": 1100
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 19,
+                    "startColumn": 4,
+                    "startOffset": 1136,
+                    "endColumn": 43,
+                    "endOffset": 1175
+                },
+                "from": {
+                    "file": "/Users/hanshuliang/workspace/android_work/studio/Android-Quick-Develop/app_sample_universal-image-loader/src/main/res/values/strings.xml",
+                    "position": {
+                        "startLine": 19,
+                        "startColumn": 1,
+                        "startOffset": 851,
+                        "endColumn": 40,
+                        "endOffset": 890
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 20,
+                    "startColumn": 4,
+                    "startOffset": 1180,
+                    "endColumn": 43,
+                    "endOffset": 1219
+                },
+                "from": {
+                    "file": "/Users/hanshuliang/workspace/android_work/studio/Android-Quick-Develop/app_sample_universal-image-loader/src/main/res/values/strings.xml",
+                    "position": {
+                        "startLine": 18,
+                        "startColumn": 1,
+                        "startOffset": 810,
+                        "endColumn": 40,
+                        "endOffset": 849
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 21,
+                    "startColumn": 4,
+                    "startOffset": 1224,
+                    "endColumn": 90,
+                    "endOffset": 1310
+                },
+                "from": {
+                    "file": "/Users/hanshuliang/workspace/android_work/studio/Android-Quick-Develop/app_sample_universal-image-loader/src/main/res/values/styles.xml",
+                    "position": {
+                        "startLine": 3,
+                        "startColumn": 4,
+                        "startOffset": 56,
+                        "endColumn": 90,
+                        "endOffset": 142
                     }
                 }
             }

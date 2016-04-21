@@ -1,6 +1,10 @@
 [
     {
-        "merged": "C:\\hanshuliang\\develop\\workspace\\as\\Android-Universal-Image-Loader\\sample\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\ic_launcher.png",
-        "source": "C:\\hanshuliang\\develop\\workspace\\as\\Android-Universal-Image-Loader\\sample\\src\\main\\res\\drawable-xxhdpi\\ic_launcher.png"
+        "merged": "/Users/hanshuliang/workspace/android_work/studio/Android-Quick-Develop/app_sample_universal-image-loader/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/ic_launcher.png",
+        "source": "/Users/hanshuliang/workspace/android_work/studio/Android-Quick-Develop/app_sample_universal-image-loader/src/main/res/drawable-xxhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/Users/hanshuliang/workspace/android_work/studio/Android-Quick-Develop/C:\\hanshuliang\\develop\\workspace\\as\\Android-Universal-Image-Loader\\sample\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\ic_launcher.png",
+        "source": "/Users/hanshuliang/workspace/android_work/studio/Android-Quick-Develop/C:\\hanshuliang\\develop\\workspace\\as\\Android-Universal-Image-Loader\\sample\\src\\main\\res\\drawable-xxhdpi\\ic_launcher.png"
     }
 ]

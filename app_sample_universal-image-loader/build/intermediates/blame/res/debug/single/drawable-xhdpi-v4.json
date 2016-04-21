@@ -1,18 +1,34 @@
 [
     {
-        "merged": "C:\\hanshuliang\\develop\\workspace\\as\\Android-Universal-Image-Loader\\sample\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\ic_launcher.png",
-        "source": "C:\\hanshuliang\\develop\\workspace\\as\\Android-Universal-Image-Loader\\sample\\src\\main\\res\\drawable-xhdpi\\ic_launcher.png"
+        "merged": "/Users/hanshuliang/workspace/android_work/studio/Android-Quick-Develop/app_sample_universal-image-loader/build/intermediates/res/merged/debug/drawable-xhdpi-v4/ic_empty.png",
+        "source": "/Users/hanshuliang/workspace/android_work/studio/Android-Quick-Develop/app_sample_universal-image-loader/src/main/res/drawable-xhdpi/ic_empty.png"
     },
     {
-        "merged": "C:\\hanshuliang\\develop\\workspace\\as\\Android-Universal-Image-Loader\\sample\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\ic_empty.png",
-        "source": "C:\\hanshuliang\\develop\\workspace\\as\\Android-Universal-Image-Loader\\sample\\src\\main\\res\\drawable-xhdpi\\ic_empty.png"
+        "merged": "/Users/hanshuliang/workspace/android_work/studio/Android-Quick-Develop/app_sample_universal-image-loader/build/intermediates/res/merged/debug/drawable-xhdpi-v4/ic_error.png",
+        "source": "/Users/hanshuliang/workspace/android_work/studio/Android-Quick-Develop/app_sample_universal-image-loader/src/main/res/drawable-xhdpi/ic_error.png"
     },
     {
-        "merged": "C:\\hanshuliang\\develop\\workspace\\as\\Android-Universal-Image-Loader\\sample\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\ic_stub.png",
-        "source": "C:\\hanshuliang\\develop\\workspace\\as\\Android-Universal-Image-Loader\\sample\\src\\main\\res\\drawable-xhdpi\\ic_stub.png"
+        "merged": "/Users/hanshuliang/workspace/android_work/studio/Android-Quick-Develop/app_sample_universal-image-loader/build/intermediates/res/merged/debug/drawable-xhdpi-v4/ic_launcher.png",
+        "source": "/Users/hanshuliang/workspace/android_work/studio/Android-Quick-Develop/app_sample_universal-image-loader/src/main/res/drawable-xhdpi/ic_launcher.png"
     },
     {
-        "merged": "C:\\hanshuliang\\develop\\workspace\\as\\Android-Universal-Image-Loader\\sample\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\ic_error.png",
-        "source": "C:\\hanshuliang\\develop\\workspace\\as\\Android-Universal-Image-Loader\\sample\\src\\main\\res\\drawable-xhdpi\\ic_error.png"
+        "merged": "/Users/hanshuliang/workspace/android_work/studio/Android-Quick-Develop/C:\\hanshuliang\\develop\\workspace\\as\\Android-Universal-Image-Loader\\sample\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\ic_launcher.png",
+        "source": "/Users/hanshuliang/workspace/android_work/studio/Android-Quick-Develop/C:\\hanshuliang\\develop\\workspace\\as\\Android-Universal-Image-Loader\\sample\\src\\main\\res\\drawable-xhdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "/Users/hanshuliang/workspace/android_work/studio/Android-Quick-Develop/C:\\hanshuliang\\develop\\workspace\\as\\Android-Universal-Image-Loader\\sample\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\ic_empty.png",
+        "source": "/Users/hanshuliang/workspace/android_work/studio/Android-Quick-Develop/C:\\hanshuliang\\develop\\workspace\\as\\Android-Universal-Image-Loader\\sample\\src\\main\\res\\drawable-xhdpi\\ic_empty.png"
+    },
+    {
+        "merged": "/Users/hanshuliang/workspace/android_work/studio/Android-Quick-Develop/app_sample_universal-image-loader/build/intermediates/res/merged/debug/drawable-xhdpi-v4/ic_stub.png",
+        "source": "/Users/hanshuliang/workspace/android_work/studio/Android-Quick-Develop/app_sample_universal-image-loader/src/main/res/drawable-xhdpi/ic_stub.png"
+    },
+    {
+        "merged": "/Users/hanshuliang/workspace/android_work/studio/Android-Quick-Develop/C:\\hanshuliang\\develop\\workspace\\as\\Android-Universal-Image-Loader\\sample\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\ic_stub.png",
+        "source": "/Users/hanshuliang/workspace/android_work/studio/Android-Quick-Develop/C:\\hanshuliang\\develop\\workspace\\as\\Android-Universal-Image-Loader\\sample\\src\\main\\res\\drawable-xhdpi\\ic_stub.png"
+    },
+    {
+        "merged": "/Users/hanshuliang/workspace/android_work/studio/Android-Quick-Develop/C:\\hanshuliang\\develop\\workspace\\as\\Android-Universal-Image-Loader\\sample\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\ic_error.png",
+        "source": "/Users/hanshuliang/workspace/android_work/studio/Android-Quick-Develop/C:\\hanshuliang\\develop\\workspace\\as\\Android-Universal-Image-Loader\\sample\\src\\main\\res\\drawable-xhdpi\\ic_error.png"
     }
 ]
