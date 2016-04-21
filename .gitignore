@@ -1,8 +1,40 @@
+# Android generated
+bin/
+gen/
+
+# Ant
+build.xml
+local.properties
+
+# Maven
+target/
+pom.xml.*
+release.properties
+
+# Eclipse
+.classpath
+.project
+.externalToolBuilders/
+
+# IntelliJ
 *.iml
-.gradle
-/local.properties
+*.ipr
+*.iws
+.idea/
+.idea
 /.idea/workspace.xml
 /.idea/libraries
+out/
+
+# Mac
 .DS_Store
-/build
+
+# Ignore gradle files
+.gradle/
+build/
+
+# Private
+signing.properties
+
+#picture
 /captures
