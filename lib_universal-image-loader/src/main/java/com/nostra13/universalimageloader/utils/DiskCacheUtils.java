@@ -38,11 +38,6 @@ public final class DiskCacheUtils {
 	}
 
 	/**
-	 * Removed cached image file from disk cache (if image was cached in disk cache before)
-	 *
-	 * @return <b>true</b> - if cached image file existed and was deleted; <b>false</b> - otherwise.
-	 */
-	/**
 	 * 从磁盘缓存中移除被缓存的图片文件 (如果图片之前被缓存到磁盘中)
 	 *
 	 * @return <b>true</b> - 如果被缓存的图片存在并且已经成功删除; <b>false</b> - 其它情况.
