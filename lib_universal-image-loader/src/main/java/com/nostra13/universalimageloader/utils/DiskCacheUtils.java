@@ -20,8 +20,8 @@ import com.nostra13.universalimageloader.cache.disc.DiskCache;
 import java.io.File;
 
 /**
- * Utility for convenient work with disk cache.<br />
- * <b>NOTE:</b> This utility works with file system so avoid using it on application main thread.
+ * 方便执行磁盘缓存工作的实用工具 .<br />
+ * <b>注意:</b> 避免在应用主线程 使用该针对文件系统的功能.
  *
  * @author Sergey Tarasevich (nostra13[at]gmail[dot]com)
  * @since 1.8.0

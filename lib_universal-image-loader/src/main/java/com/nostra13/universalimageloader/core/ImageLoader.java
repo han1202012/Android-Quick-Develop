@@ -40,8 +40,8 @@ import com.nostra13.universalimageloader.utils.L;
 import com.nostra13.universalimageloader.utils.MemoryCacheUtils;
 
 /**
- * Singletone for image loading and displaying at {@link ImageView ImageViews}<br />
- * <b>NOTE:</b> {@link #init(ImageLoaderConfiguration)} method must be called before any other method.
+ * 在 {@link ImageView ImageViews} 中的图片加载和展示的单例类<br />
+ * <b>注意:</b> {@link #init(ImageLoaderConfiguration)} 方法必须在其它方法之前执行.
  *
  * @author Sergey Tarasevich (nostra13[at]gmail[dot]com)
  * @since 1.0.0
@@ -50,9 +50,9 @@ public class ImageLoader {
 
 	public static final String TAG = ImageLoader.class.getSimpleName();
 
-	static final String LOG_INIT_CONFIG = "Initialize ImageLoader with configuration";
-	static final String LOG_DESTROY = "Destroy ImageLoader";
-	static final String LOG_LOAD_IMAGE_FROM_MEMORY_CACHE = "Load image from memory cache [%s]";
+	static final String LOG_INIT_CONFIG = "使用 configuration 初始化 ImageLoader";
+	static final String LOG_DESTROY = "销毁 ImageLoader";
+	static final String LOG_LOAD_IMAGE_FROM_MEMORY_CACHE = "从内存中加载图片 [%s]";
 
 	private static final String WARNING_RE_INIT_CONFIG = "Try to initialize ImageLoader which had already been initialized before. " + "To re-init ImageLoader with new configuration call ImageLoader.destroy() at first.";
 	private static final String ERROR_WRONG_ARGUMENTS = "Wrong arguments were passed to displayImage() method (ImageView reference must not be null)";
