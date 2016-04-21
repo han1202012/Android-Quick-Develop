@@ -20,8 +20,6 @@ release.properties
 *.iml
 *.ipr
 *.iws
-.idea/
-.idea/*
 /.idea/workspace.xml
 /.idea/libraries
 out/

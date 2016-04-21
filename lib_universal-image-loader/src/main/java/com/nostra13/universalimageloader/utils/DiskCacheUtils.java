@@ -31,7 +31,7 @@ public final class DiskCacheUtils {
 	private DiskCacheUtils() {
 	}
 
-	/** Returns {@link File} of cached image or <b>null</b> if image was not cached in disk cache */
+	/** 返回被缓存的图片文件 {@link File}, 如果图片没有在磁盘中缓存, 返回 <b>null</b> */
 	public static File findInCache(String imageUri, DiskCache diskCache) {
 		File image = diskCache.get(imageUri);
 		return image != null && image.exists() ? image : null;
@@ -41,6 +41,11 @@ public final class DiskCacheUtils {
 	 * Removed cached image file from disk cache (if image was cached in disk cache before)
 	 *
 	 * @return <b>true</b> - if cached image file existed and was deleted; <b>false</b> - otherwise.
+	 */
+	/**
+	 * 从磁盘缓存中移除被缓存的图片文件 (如果图片之前被缓存到磁盘中)
+	 *
+	 * @return <b>true</b> - 如果被缓存的图片存在并且已经成功删除; <b>false</b> - 其它情况.
 	 */
 	public static boolean removeFromCache(String imageUri, DiskCache diskCache) {
 		File image = diskCache.get(imageUri);
