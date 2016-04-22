@@ -16,45 +16,41 @@
 package com.nostra13.universalimageloader.core.assist;
 
 /**
- * Type of image scaling during decoding.
+ * 解码时的缩放类型
  *
  * @author Sergey Tarasevich (nostra13[at]gmail[dot]com)
  * @since 1.5.0
  */
 public enum ImageScaleType {
-	/** Image won't be scaled */
+	/** 图片不会被缩放 */
 	NONE,
-	/**
-	 * Image will be scaled down only if image size is greater than
-	 * {@linkplain javax.microedition.khronos.opengles.GL10#GL_MAX_TEXTURE_SIZE maximum acceptable texture size}.
-	 * Usually it's 2048x2048.<br />
-	 * If Bitmap is expected to display than it must not exceed this size (otherwise you'll get the exception
-	 * "OpenGLRenderer: Bitmap too large to be uploaded into a texture".<br />
-	 * Image will be subsampled in an integer number of times (1, 2, 3, ...) to maximum texture size of device.
-	 */
+
+    /**
+     * 只有当图片的大小比 2048x2048 大时, 图片才会被缩小
+     * 如果 图片 需要被展示, 它的大小一定不能是这个大小 (另外你会收到 图片过大的异常信息 如下 :
+     * OpenGLRenderer: Bitmap too large to be uploaded into a texture".)<br />
+     * 图片会被以一个 数字 进行采样, 数字按照 1, 2, 3 ... 到设备所能展示的最多的 texture 数目.
+     */
 	NONE_SAFE,
 	/**
-	 * Image will be reduces 2-fold until next reduce step make image smaller target size.<br />
-	 * It's <b>fast</b> type and it's preferable for usage in lists/grids/galleries (and other
-	 * {@linkplain android.widget.AdapterView adapter-views}) .<br />
-	 * Relates to {@link android.graphics.BitmapFactory.Options#inSampleSize}<br />
-	 * Note: If original image size is smaller than target size then original image <b>won't</b> be scaled.
+     * 图片会被缩小 2 倍, 直到下一个步骤让图片缩小到指定的大小.<br />
+     * 这是个快速处理的类型 并且 该类型倾向于在 List/Grid/Gallery (或者其它 AdapterView 子类)中使用.<br />
+	 * 与 {@link android.graphics.BitmapFactory.Options#inSampleSize} 相关<br />
+     * 注意 : 如果原始图片的大小比目标大小小, 原始图片不会被缩放;
 	 */
 	IN_SAMPLE_POWER_OF_2,
 	/**
-	 * Image will be subsampled in an integer number of times (1, 2, 3, ...). Use it if memory economy is quite
-	 * important.<br />
-	 * Relates to {@link android.graphics.BitmapFactory.Options#inSampleSize}<br />
-	 * Note: If original image size is smaller than target size then original image <b>won't</b> be scaled.
+     * 图片会被按照一个数字采样 (该数字从 1, 2, 3, ...). 使用该类型对于内存节约很重要. <br/>
+	 * 与 {@link android.graphics.BitmapFactory.Options#inSampleSize} 相关<br />
+	 * 注意: 如果原始图片比目标图片小小, 那么原始图片不会被缩放.
 	 */
 	IN_SAMPLE_INT,
 	/**
-	 * Image will scaled-down exactly to target size (scaled width or height or both will be equal to target size;
-	 * depends on {@linkplain android.widget.ImageView.ScaleType ImageView's scale type}). Use it if memory economy is
-	 * critically important.<br />
-	 * <b>Note:</b> If original image size is smaller than target size then original image <b>won't</b> be scaled.<br />
+     * 图片会精确的被缩小到与目标大小相同 (宽度和高度的缩放后与目标大小都会相同, 即图片有可能失真, 这个基于 ImageView 的缩放类型).
+     * 如果对于内存节约方面要求很精密时, 可以使用该类型.<br />
+	 * 注意: 如果原始图片比目标图片小小, 那么原始图片不会被缩放.<br />
 	 * <br />
-	 * <b>NOTE:</b> For creating result Bitmap (of exact size) additional Bitmap will be created with
+     * 注意 : 对于创建一个最终的 Bitmap (或者确定的大小) , 会调用下面的方法创建额外的 Bitmap.
 	 * {@link android.graphics.Bitmap#createBitmap(android.graphics.Bitmap, int, int, int, int, android.graphics.Matrix, boolean)
 	 * Bitmap.createBitmap(...)}.<br />
 	 * <b>Cons:</b> Saves memory by keeping smaller Bitmap in memory cache (comparing with IN_SAMPLE... scale types)<br />
