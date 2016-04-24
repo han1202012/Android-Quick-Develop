@@ -1,14 +1,18 @@
 [
     {
-        "merged": "/Users/hanshuliang/workspace/android_work/studio/Android-Quick-Develop/C:\\hanshuliang\\develop\\workspace\\as\\AndroidQuickDevelop\\app_sample_rebound\\build\\intermediates\\res\\merged\\debug\\menu\\playground.xml",
-        "source": "/Users/hanshuliang/workspace/android_work/studio/Android-Quick-Develop/C:\\hanshuliang\\develop\\workspace\\as\\AndroidQuickDevelop\\app_sample_rebound\\src\\main\\res\\menu\\playground.xml"
+        "merged": "D:\\Users\\hanshuliang\\workspace\\android_work\\studio\\Android-Quick-Develop\\app_sample_rebound\\build\\intermediates\\res\\merged\\debug\\menu\\playground.xml",
+        "source": "D:\\Users\\hanshuliang\\workspace\\android_work\\studio\\Android-Quick-Develop\\app_sample_rebound\\src\\main\\res\\menu\\playground.xml"
     },
     {
-        "merged": "/Users/hanshuliang/workspace/android_work/studio/Android-Quick-Develop/app_sample_rebound/build/intermediates/res/merged/debug/menu/playground.xml",
-        "source": "/Users/hanshuliang/workspace/android_work/studio/Android-Quick-Develop/app_sample_rebound/src/main/res/menu/playground.xml"
+        "merged": "D:\\develop\\Project\\AS\\Android-Quick-Develop\\app_sample_rebound\\build\\intermediates\\res\\merged\\debug\\menu\\playground.xml",
+        "source": "D:\\develop\\Project\\AS\\Android-Quick-Develop\\app_sample_rebound\\src\\main\\res\\menu\\playground.xml"
     },
     {
-        "merged": "/Users/hanshuliang/workspace/android_work/studio/Android-Quick-Develop/C:\\360Download\\rebound-master\\rebound-android-playground\\build\\intermediates\\res\\merged\\debug\\menu\\playground.xml",
-        "source": "/Users/hanshuliang/workspace/android_work/studio/Android-Quick-Develop/C:\\360Download\\rebound-master\\rebound-android-playground\\src\\main\\res\\menu\\playground.xml"
+        "merged": "D:\\Users\\hanshuliang\\workspace\\android_work\\studio\\Android-Quick-Develop\\C:\\hanshuliang\\develop\\workspace\\as\\AndroidQuickDevelop\\app_sample_rebound\\build\\intermediates\\res\\merged\\debug\\menu\\playground.xml",
+        "source": "D:\\Users\\hanshuliang\\workspace\\android_work\\studio\\Android-Quick-Develop\\C:\\hanshuliang\\develop\\workspace\\as\\AndroidQuickDevelop\\app_sample_rebound\\src\\main\\res\\menu\\playground.xml"
+    },
+    {
+        "merged": "D:\\Users\\hanshuliang\\workspace\\android_work\\studio\\Android-Quick-Develop\\C:\\360Download\\rebound-master\\rebound-android-playground\\build\\intermediates\\res\\merged\\debug\\menu\\playground.xml",
+        "source": "D:\\Users\\hanshuliang\\workspace\\android_work\\studio\\Android-Quick-Develop\\C:\\360Download\\rebound-master\\rebound-android-playground\\src\\main\\res\\menu\\playground.xml"
     }
 ]

@@ -1,10 +1,18 @@
 [
     {
-        "merged": "/Users/hanshuliang/workspace/android_work/studio/Android-Quick-Develop/lib_common/build/intermediates/res/merged/androidTest/debug/layout/drop_down_list_footer.xml",
-        "source": "/Users/hanshuliang/workspace/android_work/studio/Android-Quick-Develop/lib_common/build/intermediates/bundles/debug/res/layout/drop_down_list_footer.xml"
+        "merged": "D:\\develop\\Project\\AS\\Android-Quick-Develop\\lib_common\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\drop_down_list_footer.xml",
+        "source": "D:\\develop\\Project\\AS\\Android-Quick-Develop\\lib_common\\build\\intermediates\\bundles\\debug\\res\\layout\\drop_down_list_footer.xml"
     },
     {
-        "merged": "/Users/hanshuliang/workspace/android_work/studio/Android-Quick-Develop/lib_common/build/intermediates/res/merged/androidTest/debug/layout/drop_down_list_header.xml",
-        "source": "/Users/hanshuliang/workspace/android_work/studio/Android-Quick-Develop/lib_common/build/intermediates/bundles/debug/res/layout/drop_down_list_header.xml"
+        "merged": "D:\\Users\\hanshuliang\\workspace\\android_work\\studio\\Android-Quick-Develop\\lib_common\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\drop_down_list_footer.xml",
+        "source": "D:\\Users\\hanshuliang\\workspace\\android_work\\studio\\Android-Quick-Develop\\lib_common\\build\\intermediates\\bundles\\debug\\res\\layout\\drop_down_list_footer.xml"
+    },
+    {
+        "merged": "D:\\Users\\hanshuliang\\workspace\\android_work\\studio\\Android-Quick-Develop\\lib_common\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\drop_down_list_header.xml",
+        "source": "D:\\Users\\hanshuliang\\workspace\\android_work\\studio\\Android-Quick-Develop\\lib_common\\build\\intermediates\\bundles\\debug\\res\\layout\\drop_down_list_header.xml"
+    },
+    {
+        "merged": "D:\\develop\\Project\\AS\\Android-Quick-Develop\\lib_common\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\drop_down_list_header.xml",
+        "source": "D:\\develop\\Project\\AS\\Android-Quick-Develop\\lib_common\\build\\intermediates\\bundles\\debug\\res\\layout\\drop_down_list_header.xml"
     }
 ]

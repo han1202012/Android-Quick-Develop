@@ -1,10 +1,14 @@
 [
     {
-        "merged": "/Users/hanshuliang/workspace/android_work/studio/Android-Quick-Develop/C:\\hanshuliang\\develop\\workspace\\as\\Android-Universal-Image-Loader\\sample\\build\\intermediates\\res\\merged\\debug\\xml\\widget_provider.xml",
-        "source": "/Users/hanshuliang/workspace/android_work/studio/Android-Quick-Develop/C:\\hanshuliang\\develop\\workspace\\as\\Android-Universal-Image-Loader\\sample\\src\\main\\res\\xml\\widget_provider.xml"
+        "merged": "D:\\Users\\hanshuliang\\workspace\\android_work\\studio\\Android-Quick-Develop\\C:\\hanshuliang\\develop\\workspace\\as\\Android-Universal-Image-Loader\\sample\\build\\intermediates\\res\\merged\\debug\\xml\\widget_provider.xml",
+        "source": "D:\\Users\\hanshuliang\\workspace\\android_work\\studio\\Android-Quick-Develop\\C:\\hanshuliang\\develop\\workspace\\as\\Android-Universal-Image-Loader\\sample\\src\\main\\res\\xml\\widget_provider.xml"
     },
     {
-        "merged": "/Users/hanshuliang/workspace/android_work/studio/Android-Quick-Develop/app_sample_universal-image-loader/build/intermediates/res/merged/debug/xml/widget_provider.xml",
-        "source": "/Users/hanshuliang/workspace/android_work/studio/Android-Quick-Develop/app_sample_universal-image-loader/src/main/res/xml/widget_provider.xml"
+        "merged": "D:\\Users\\hanshuliang\\workspace\\android_work\\studio\\Android-Quick-Develop\\app_sample_universal-image-loader\\build\\intermediates\\res\\merged\\debug\\xml\\widget_provider.xml",
+        "source": "D:\\Users\\hanshuliang\\workspace\\android_work\\studio\\Android-Quick-Develop\\app_sample_universal-image-loader\\src\\main\\res\\xml\\widget_provider.xml"
+    },
+    {
+        "merged": "D:\\develop\\Project\\AS\\Android-Quick-Develop\\app_sample_universal-image-loader\\build\\intermediates\\res\\merged\\debug\\xml\\widget_provider.xml",
+        "source": "D:\\develop\\Project\\AS\\Android-Quick-Develop\\app_sample_universal-image-loader\\src\\main\\res\\xml\\widget_provider.xml"
     }
 ]

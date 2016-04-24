@@ -1,6 +1,10 @@
 [
     {
-        "merged": "/Users/hanshuliang/workspace/android_work/studio/Android-Quick-Develop/lib_common/build/intermediates/res/merged/androidTest/debug/drawable-ldpi-v4/drop_down_list_arrow.png",
-        "source": "/Users/hanshuliang/workspace/android_work/studio/Android-Quick-Develop/lib_common/build/intermediates/bundles/debug/res/drawable-ldpi-v4/drop_down_list_arrow.png"
+        "merged": "D:\\Users\\hanshuliang\\workspace\\android_work\\studio\\Android-Quick-Develop\\lib_common\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-ldpi-v4\\drop_down_list_arrow.png",
+        "source": "D:\\Users\\hanshuliang\\workspace\\android_work\\studio\\Android-Quick-Develop\\lib_common\\build\\intermediates\\bundles\\debug\\res\\drawable-ldpi-v4\\drop_down_list_arrow.png"
+    },
+    {
+        "merged": "D:\\develop\\Project\\AS\\Android-Quick-Develop\\lib_common\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-ldpi-v4\\drop_down_list_arrow.png",
+        "source": "D:\\develop\\Project\\AS\\Android-Quick-Develop\\lib_common\\build\\intermediates\\bundles\\debug\\res\\drawable-ldpi-v4\\drop_down_list_arrow.png"
     }
 ]
