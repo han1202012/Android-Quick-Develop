@@ -25,11 +25,8 @@
       <module fileurl="file://$PROJECT_DIR$/lib_widget/lib_widget.iml" filepath="$PROJECT_DIR$/lib_widget/lib_widget.iml" />
       <module fileurl="file://$PROJECT_DIR$/lib_xutils/lib_xutils.iml" filepath="$PROJECT_DIR$/lib_xutils/lib_xutils.iml" />
       <module fileurl="file://$PROJECT_DIR$/lib_xutils/lib_xutils.iml" filepath="$PROJECT_DIR$/lib_xutils/lib_xutils.iml" />
-<<<<<<< HEAD
-=======
       <module fileurl="file://$PROJECT_DIR$/library/library.iml" filepath="$PROJECT_DIR$/library/library.iml" />
       <module fileurl="file://$PROJECT_DIR$/library/library.iml" filepath="$PROJECT_DIR$/library/library.iml" />
->>>>>>> origin/master
     </modules>
   </component>
 </project>
