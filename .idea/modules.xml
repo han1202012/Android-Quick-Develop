@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/Android-Quick-Develop.iml" filepath="$PROJECT_DIR$/Android-Quick-Develop.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Android-Quick-Develop.iml" filepath="$PROJECT_DIR$/Android-Quick-Develop.iml" />
       <module fileurl="file://$PROJECT_DIR$/AndroidQuickDevelop.iml" filepath="$PROJECT_DIR$/AndroidQuickDevelop.iml" />
       <module fileurl="file://$PROJECT_DIR$/app_sample/app_sample.iml" filepath="$PROJECT_DIR$/app_sample/app_sample.iml" />
       <module fileurl="file://$PROJECT_DIR$/app_sample_rebound/app_sample_rebound.iml" filepath="$PROJECT_DIR$/app_sample_rebound/app_sample_rebound.iml" />
@@ -14,8 +15,6 @@
       <module fileurl="file://$PROJECT_DIR$/lib_universal-image-loader/lib_universal-image-loader.iml" filepath="$PROJECT_DIR$/lib_universal-image-loader/lib_universal-image-loader.iml" />
       <module fileurl="file://$PROJECT_DIR$/lib_widget/lib_widget.iml" filepath="$PROJECT_DIR$/lib_widget/lib_widget.iml" />
       <module fileurl="file://$PROJECT_DIR$/lib_xutils/lib_xutils.iml" filepath="$PROJECT_DIR$/lib_xutils/lib_xutils.iml" />
-      <module fileurl="file://$PROJECT_DIR$/library/library.iml" filepath="$PROJECT_DIR$/library/library.iml" />
     </modules>
   </component>
 </project>
-
