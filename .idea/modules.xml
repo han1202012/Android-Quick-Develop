@@ -26,7 +26,6 @@
       <module fileurl="file://$PROJECT_DIR$/lib_xutils/lib_xutils.iml" filepath="$PROJECT_DIR$/lib_xutils/lib_xutils.iml" />
       <module fileurl="file://$PROJECT_DIR$/lib_xutils/lib_xutils.iml" filepath="$PROJECT_DIR$/lib_xutils/lib_xutils.iml" />
       <module fileurl="file://$PROJECT_DIR$/library/library.iml" filepath="$PROJECT_DIR$/library/library.iml" />
-      <module fileurl="file://$PROJECT_DIR$/library/library.iml" filepath="$PROJECT_DIR$/library/library.iml" />
     </modules>
   </component>
 </project>
