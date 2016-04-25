@@ -40,3 +40,5 @@ signing.properties
 /app_sample_universal-image-loader/build/
 
 *.class
+
+/*/build/
