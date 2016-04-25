@@ -40,6 +40,4 @@ signing.properties
 #picture
 /captures
 
-/app_sample_universal-image-loader/build/
-
 *.class
