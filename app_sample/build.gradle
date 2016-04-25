@@ -28,5 +28,5 @@ dependencies {
     compile project(':lib_octopus')
     compile project(':lib_common')
     compile project(':lib_xutils')
-    compile project(':lib_universal-image-loader')
+    //compile project(':lib_universal-image-loader')
 }
