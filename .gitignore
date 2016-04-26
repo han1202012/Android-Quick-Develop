@@ -22,9 +22,9 @@ release.properties
 *.iws
 /.idea
 /.idea/
-/.idea/*
-/.idea/workspace.xml
-/.idea/libraries
+#/.idea/*
+#/.idea/workspace.xml
+#/.idea/libraries
 out/
 
 # Mac
