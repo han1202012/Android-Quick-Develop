@@ -6,6 +6,6 @@
 - Common 库 : 
 - HighLight 库 : 高亮库, 用于 APP 学医帮助相关类.
 - Universal-Image-Loader 库 : 图片 下载 缓存 展示 库.
-- Xutils 库 : 
+- Xutils 库 : 多功能库
 
 
