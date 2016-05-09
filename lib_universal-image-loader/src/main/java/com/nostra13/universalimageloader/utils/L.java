@@ -34,7 +34,7 @@ public final class L {
 	}
 
 	/**
-	 * Enables logger (if {@link #disableLogging()} was called before)
+	 * 打开日志输出功能 (if {@link #disableLogging()} was called before)
 	 *
 	 * @deprecated Use {@link #writeLogs(boolean) writeLogs(true)} instead
 	 */
@@ -44,7 +44,7 @@ public final class L {
 	}
 
 	/**
-	 * Disables logger, no logs will be passed to LogCat, all log methods will do nothing
+	 * 打开日志输出功能, 此时没有日志信息输出到 Logcat 中, 所有的 Log 方法不执行任何内容
 	 *
 	 * @deprecated Use {@link #writeLogs(boolean) writeLogs(false)} instead
 	 */
