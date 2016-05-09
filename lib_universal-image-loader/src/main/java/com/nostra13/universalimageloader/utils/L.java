@@ -19,7 +19,7 @@ import android.util.Log;
 import com.nostra13.universalimageloader.core.ImageLoader;
 
 /**
- * "Less-word" analog of Android {@link android.util.Log logger}
+ * 使用更少的代码打印日志 {@link android.util.Log logger}
  *
  * @author Sergey Tarasevich (nostra13[at]gmail[dot]com)
  * @since 1.6.4
