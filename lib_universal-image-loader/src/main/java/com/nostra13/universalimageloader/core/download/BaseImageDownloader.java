@@ -135,9 +135,9 @@ public class BaseImageDownloader implements ImageDownloader {
 	}
 
 	/**
-	 * @param conn Opened request connection (response code is available)
-	 * @return <b>true</b> - if data from connection is correct and should be read and processed;
-	 *         <b>false</b> - if response contains irrelevant data and shouldn't be processed
+	 * @param conn 已经打开的请求连接 (返回码是可用的)
+	 * @return <b>true</b> - 如果从连接获取的数据是正确的 并且 应该被读取 和 处理;
+	 *         <b>false</b> - 如果返回码包含不想管的数据 并且 不应该被处理
 	 * @throws IOException
 	 */
 	protected boolean shouldBeProcessed(HttpURLConnection conn) throws IOException {
