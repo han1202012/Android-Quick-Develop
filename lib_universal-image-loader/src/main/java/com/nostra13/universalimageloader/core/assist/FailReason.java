@@ -16,7 +16,7 @@
 package com.nostra13.universalimageloader.core.assist;
 
 /**
- * Presents the reason why image loading and displaying was failed
+ * 展示 图片 加载 和 展示失败的原因
  *
  * @author Sergey Tarasevich (nostra13[at]gmail[dot]com)
  * @since 1.0.0
@@ -42,24 +42,23 @@ public class FailReason {
 		return cause;
 	}
 
-	/** Presents type of fail while image loading */
+	/** 展示加载图片失败的原因 */
 	public static enum FailType {
-		/** Input/output error. Can be caused by network communication fail or error while caching image on file system. */
+		/** 输入/输出错误. 可能的原因是 1. 由于网络网络连接失败 或 出错 2. 在文件系统缓存图片出错. */
 		IO_ERROR,
 		/**
-		 * Error while
+		 * 将 图片 解码成 Birmap 时出错 (BitmapFactory.decodeStream).
 		 * {@linkplain android.graphics.BitmapFactory#decodeStream(java.io.InputStream, android.graphics.Rect, android.graphics.BitmapFactory.Options)
-		 * decode image to Bitmap}
 		 */
 		DECODING_ERROR,
 		/**
-		 * {@linkplain com.nostra13.universalimageloader.core.ImageLoader#denyNetworkDownloads(boolean) Network
-		 * downloads are denied} and requested image wasn't cached in disk cache before.
+		 * 网络下载被拒绝, 需要的图片在这之前没有会被缓存到磁盘缓存中
+		 * {@linkplain com.nostra13.universalimageloader.core.ImageLoader#denyNetworkDownloads(boolean) 网络下载被拒绝}
 		 */
 		NETWORK_DENIED,
-		/** Not enough memory to create needed Bitmap for image */
+		/** 没有足够的内存去为 图片 创建足够需要的 Bitmap. */
 		OUT_OF_MEMORY,
-		/** Unknown error was occurred while loading image */
+		/** 在加载图片时发生的未知错误. */
 		UNKNOWN
 	}
 }
