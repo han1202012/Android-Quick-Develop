@@ -48,27 +48,27 @@ public enum ImageScaleType {
 	/**
      * 图片会精确的被缩小到与目标大小相同 (宽度和高度的缩放后与目标大小都会相同, 即图片有可能失真, 这个基于 ImageView 的缩放类型).
      * 如果对于内存节约方面要求很精密时, 可以使用该类型.<br />
+	 *
 	 * 注意: 如果原始图片比目标图片小小, 那么原始图片不会被缩放.<br />
 	 * <br />
      * 注意 : 对于创建一个最终的 Bitmap (或者确定的大小) , 会调用下面的方法创建额外的 Bitmap.
 	 * {@link android.graphics.Bitmap#createBitmap(android.graphics.Bitmap, int, int, int, int, android.graphics.Matrix, boolean)
 	 * Bitmap.createBitmap(...)}.<br />
-	 * <b>Cons:</b> Saves memory by keeping smaller Bitmap in memory cache (comparing with IN_SAMPLE... scale types)<br />
-	 * <b>Pros:</b> Requires more memory in one time for creation of result Bitmap.
+	 * <b>优点 :</b> 通过在内存中缓存小图片来节省内存 (与 IN_SAMPLE... 缩放类型比较)<br />
+	 * <b>缺点 :</b> 在一瞬间需要更多内存来创建最终图片.
 	 */
 	EXACTLY,
 	/**
-	 * Image will scaled exactly to target size (scaled width or height or both will be equal to target size; depends on
-	 * {@linkplain android.widget.ImageView.ScaleType ImageView's scale type}). Use it if memory economy is critically
-	 * important.<br />
-	 * <b>Note:</b> If original image size is smaller than target size then original image <b>will be stretched</b> to
-	 * target size.<br />
+	 * 图片会精确的被缩小到与目标大小相同 (宽度和高度的缩放后与目标大小都会相同, 即图片有可能失真, 这个基于 ImageView 的缩放类型).
+	 * 如果对于内存节约方面要求很精密时, 可以使用该类型.<br />
+	 *
+	 * <b>注意:</b> 如果原始图片比目标图片小小, <b>原始图片会被拉伸到</b> 目标大小.<br />
 	 * <br />
-	 * <b>NOTE:</b> For creating result Bitmap (of exact size) additional Bitmap will be created with
+	 * <b>注意:</b> 对于创建 精确大小的结果 Bitmap , 会从For creating result Bitmap (of exact size) additional Bitmap will be created with
 	 * {@link android.graphics.Bitmap#createBitmap(android.graphics.Bitmap, int, int, int, int, android.graphics.Matrix, boolean)
 	 * Bitmap.createBitmap(...)}.<br />
-	 * <b>Cons:</b> Saves memory by keeping smaller Bitmap in memory cache (comparing with IN_SAMPLE... scale types)<br />
-	 * <b>Pros:</b> Requires more memory in one time for creation of result Bitmap.
+	 * <b>优点 :</b> 通过在内存中缓存小图片来节省内存 (与 IN_SAMPLE... 缩放类型比较)<br />
+	 * <b>缺点 :</b> 在一瞬间需要更多内存来创建最终图片.
 	 */
 	EXACTLY_STRETCHED
 }
