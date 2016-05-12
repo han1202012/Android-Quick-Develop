@@ -20,9 +20,7 @@ import android.view.View;
 import com.nostra13.universalimageloader.core.assist.FailReason;
 
 /**
- * A convenient class to extend when you only want to listen for a subset of all the image loading events. This
- * implements all methods in the {@link com.nostra13.universalimageloader.core.listener.ImageLoadingListener} but does
- * nothing.
+ * 当你只想要去监听 一种 或 几种方法 图片加载事件时, 可以继承该类 该类实现了 ImageLoadingListener 所有的方法, 但是在方法体中没有执行任何操作.
  *
  * @author Sergey Tarasevich (nostra13[at]gmail[dot]com)
  * @since 1.4.0
