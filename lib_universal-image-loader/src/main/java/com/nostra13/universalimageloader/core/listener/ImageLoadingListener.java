@@ -20,8 +20,8 @@ import android.view.View;
 import com.nostra13.universalimageloader.core.assist.FailReason;
 
 /**
- * Listener for image loading process.<br />
- * You can use {@link SimpleImageLoadingListener} for implementing only needed methods.
+ * 图片加载过程监听器.<br />
+ * 你可以使用 SimpleImageLoadingListener 类, 只实现需要的方法.  {@link SimpleImageLoadingListener} .
  *
  * @author Sergey Tarasevich (nostra13[at]gmail[dot]com)
  * @see SimpleImageLoadingListener
