@@ -31,37 +31,36 @@ import com.nostra13.universalimageloader.core.assist.FailReason;
 public interface ImageLoadingListener {
 
 	/**
-	 * Is called when image loading task was started
+	 * 当图片加载任务开始时回调
 	 *
-	 * @param imageUri Loading image URI
-	 * @param view     View for image
+	 * @param imageUri 被加载图片的 URI 地址
+	 * @param view     展示图片的 View 组件
 	 */
 	void onLoadingStarted(String imageUri, View view);
 
 	/**
-	 * Is called when an error was occurred during image loading
+	 * 当图片加载过程中出现错误时回调
 	 *
-	 * @param imageUri   Loading image URI
-	 * @param view       View for image. Can be <b>null</b>.
-	 * @param failReason {@linkplain com.nostra13.universalimageloader.core.assist.FailReason The reason} why image
-	 *                   loading was failed
+	 * @param imageUri   被加载图片的 URI 地址
+	 * @param view       展示图片的 View 组件. 可以是 <b>null</b>.
+	 * @param failReason 为什么图片加载失败的{@linkplain com.nostra13.universalimageloader.core.assist.FailReason 原因}
 	 */
 	void onLoadingFailed(String imageUri, View view, FailReason failReason);
 
 	/**
-	 * Is called when image is loaded successfully (and displayed in View if one was specified)
+	 * 当图片加载成功时回调 (并且已经在 View 中展示出来, 如果 View 被指定)
 	 *
-	 * @param imageUri    Loaded image URI
-	 * @param view        View for image. Can be <b>null</b>.
-	 * @param loadedImage Bitmap of loaded and decoded image
+	 * @param imageUri    被加载图片的 URI 地址
+	 * @param view        展示图片的 View 组件. 可以是 <b>null</b>.
+	 * @param loadedImage 加载 和 解码 图片后的 Bitmap 对象
 	 */
 	void onLoadingComplete(String imageUri, View view, Bitmap loadedImage);
 
 	/**
-	 * Is called when image loading task was cancelled because View for image was reused in newer task
+	 * 如果展示图片的 View 在其它新的任务中被复用了, 此时加载图片任务被取消 回调该方法
 	 *
-	 * @param imageUri Loading image URI
-	 * @param view     View for image. Can be <b>null</b>.
+	 * @param imageUri 被加载图片的 URI 地址
+	 * @param view     展示图片的 View 组件. 可以是 <b>null</b>.
 	 */
 	void onLoadingCancelled(String imageUri, View view);
 }
