@@ -28,7 +28,7 @@ import java.io.InputStream;
 
 /**
  * Downloader supporting "base64://..." URIs.
- * E.g.: "base64://data:image/jpeg;base64,/9j/4AAQSkZ..."
+ * 例如 : "base64://data:image/jpeg;base64,/9j/4AAQSkZ..."
  *
  * @author mrleolink, Sergey Tarasevich (nostra13[at]gmail[dot]com)
  */
