@@ -64,7 +64,7 @@ public enum ImageScaleType {
 	 *
 	 * <b>注意:</b> 如果原始图片比目标图片小小, <b>原始图片会被拉伸到</b> 目标大小.<br />
 	 * <br />
-	 * <b>注意:</b> 对于创建 精确大小的结果 Bitmap , 会从For creating result Bitmap (of exact size) additional Bitmap will be created with
+	 * <b>注意:</b> 对于创建 精确大小的结果 Bitmap , 使用 Bitmap.createBitmap 方法创建 Bitmap 对象.
 	 * {@link android.graphics.Bitmap#createBitmap(android.graphics.Bitmap, int, int, int, int, android.graphics.Matrix, boolean)
 	 * Bitmap.createBitmap(...)}.<br />
 	 * <b>优点 :</b> 通过在内存中缓存小图片来节省内存 (与 IN_SAMPLE... 缩放类型比较)<br />
