@@ -41,7 +41,7 @@ public interface ImageDownloader {
 	 */
 	InputStream getStream(String imageUri, Object extra) throws IOException;
 
-	/** Represents supported schemes(protocols) of URI. Provides convenient methods for work with schemes and URIs. */
+	/** 代表支持的 URI 的格式 (或协议). 为 URI 格式相关的操作, 提供一些方便的方法. */
 	public enum Scheme {
 		HTTP("http"), HTTPS("https"), FILE("file"), CONTENT("content"), ASSETS("assets"), DRAWABLE("drawable"), UNKNOWN("");
 
@@ -54,10 +54,10 @@ public interface ImageDownloader {
 		}
 
 		/**
-		 * Defines scheme of incoming URI
+		 * 确定到来的 URI 的格式
 		 *
-		 * @param uri URI for scheme detection
-		 * @return Scheme of incoming URI
+		 * @param uri 需要进行格式检测的 URI 地址
+		 * @return 输入的 URI 格式
 		 */
 		public static Scheme ofUri(String uri) {
 			if (uri != null) {
@@ -74,12 +74,12 @@ public interface ImageDownloader {
 			return uri.toLowerCase(Locale.US).startsWith(uriPrefix);
 		}
 
-		/** Appends scheme to incoming path */
+		/** 为输入的路径追加格式 */
 		public String wrap(String path) {
 			return uriPrefix + path;
 		}
 
-		/** Removed scheme part ("scheme://") from incoming URI */
+		/** 为输入的 URI 地址移除格式前缀 ("scheme://") */
 		public String crop(String uri) {
 			if (!belongsTo(uri)) {
 				throw new IllegalArgumentException(String.format("URI [%1$s] doesn't have expected scheme [%2$s]", uri, scheme));
