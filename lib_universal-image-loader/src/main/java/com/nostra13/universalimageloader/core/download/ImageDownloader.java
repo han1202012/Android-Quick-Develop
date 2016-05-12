@@ -22,22 +22,22 @@ import java.io.InputStream;
 import java.util.Locale;
 
 /**
- * Provides retrieving of {@link InputStream} of image by URI.<br />
- * Implementations have to be thread-safe.
+ * 提供 根据 图片 URI 获取的输入流的 检索.<br />
+ * 实现类必须线程安全.
  *
  * @author Sergey Tarasevich (nostra13[at]gmail[dot]com)
  * @since 1.4.0
  */
 public interface ImageDownloader {
 	/**
-	 * Retrieves {@link InputStream} of image by URI.
+	 * 根据图片的 URI 获取输入流检索.
 	 *
-	 * @param imageUri Image URI
-	 * @param extra    Auxiliary object which was passed to {@link DisplayImageOptions.Builder#extraForDownloader(Object)
-	 *                 DisplayImageOptions.extraForDownloader(Object)}; can be null
+	 * @param imageUri 图片 URI
+	 * @param extra    传递给 Builder.extraForDownloader 或 DisplayImageOptions.extraForDownloader 的辅助类, 可以是 null.
+	 *
 	 * @return {@link InputStream} of image
-	 * @throws IOException                   if some I/O error occurs during getting image stream
-	 * @throws UnsupportedOperationException if image URI has unsupported scheme(protocol)
+	 * @throws IOException                   如果在获取图片输入流过程中发生一些 I/O 错误
+	 * @throws UnsupportedOperationException 如果图片 URI 有未支持的 计划 或 协议
 	 */
 	InputStream getStream(String imageUri, Object extra) throws IOException;
 
