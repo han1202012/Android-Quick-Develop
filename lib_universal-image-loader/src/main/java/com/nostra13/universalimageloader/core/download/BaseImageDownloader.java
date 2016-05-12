@@ -43,17 +43,17 @@ import java.net.URL;
 import java.net.URLConnection;
 
 /**
- * Provides retrieving of {@link InputStream} of image by URI from network or file system or app resources.<br />
- * {@link URLConnection} is used to retrieve image stream from network.
+ * 根据 URI 地址获取图片的输入流, 从网络 或 文件系统 或 app 资源中获取. <br />
+ * {@link URLConnection} 被用于从网络中获取 图片输入流.
  *
  * @author Sergey Tarasevich (nostra13[at]gmail[dot]com)
  * @since 1.8.0
  */
 public class BaseImageDownloader implements ImageDownloader {
 	/** {@value} */
-	public static final int DEFAULT_HTTP_CONNECT_TIMEOUT = 5 * 1000; // milliseconds
+	public static final int DEFAULT_HTTP_CONNECT_TIMEOUT = 5 * 1000; // 单位 : 毫秒
 	/** {@value} */
-	public static final int DEFAULT_HTTP_READ_TIMEOUT = 20 * 1000; // milliseconds
+	public static final int DEFAULT_HTTP_READ_TIMEOUT = 20 * 1000; // 单位 : 毫秒
 
 	/** {@value} */
 	protected static final int BUFFER_SIZE = 32 * 1024; // 32 Kb
@@ -101,14 +101,13 @@ public class BaseImageDownloader implements ImageDownloader {
 	}
 
 	/**
-	 * Retrieves {@link InputStream} of image by URI (image is located in the network).
+	 * 根据 URI 地址获取 InputStream 输入流 (图片在网络上).
 	 *
-	 * @param imageUri Image URI
-	 * @param extra    Auxiliary object which was passed to {@link DisplayImageOptions.Builder#extraForDownloader(Object)
-	 *                 DisplayImageOptions.extraForDownloader(Object)}; can be null
+	 * @param imageUri 图片 URI 地址
+	 * @param extra    被传递给 {@link DisplayImageOptions.Builder#extraForDownloader(Object)
+	 *                 DisplayImageOptions.extraForDownloader(Object)} 的辅助类; 可以为 null
 	 * @return {@link InputStream} of image
-	 * @throws IOException if some I/O error occurs during network request or if no InputStream could be created for
-	 *                     URL.
+	 * @throws IOException 如果在网络请求时发生了 I/O 错误, 或者 从 URI 地址不能创建输入流.
 	 */
 	protected InputStream getStreamFromNetwork(String imageUri, Object extra) throws IOException {
 		HttpURLConnection conn = createConnection(imageUri, extra);
@@ -123,7 +122,7 @@ public class BaseImageDownloader implements ImageDownloader {
 		try {
 			imageStream = conn.getInputStream();
 		} catch (IOException e) {
-			// Read all data to allow reuse connection (http://bit.ly/1ad35PY)
+			// 读取所有的数据 允许复用连接 (http://bit.ly/1ad35PY)
 			IoUtils.readAndCloseStream(conn.getErrorStream());
 			throw e;
 		}

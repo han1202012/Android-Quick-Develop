@@ -599,8 +599,8 @@ public final class ImageLoaderConfiguration {
 	}
 
 	/**
-	 * Decorator. Prevents downloads from network (throws {@link IllegalStateException exception}).<br />
-	 * In most cases this downloader shouldn't be used directly.
+	 * ImageDownloader 的装饰类. 避免从网络上下载时抛出 IllegalStateException 异常.  (throws {@link IllegalStateException exception}).<br />
+	 * 大部分情况下该下载器不应该直接被使用.
 	 *
 	 * @author Sergey Tarasevich (nostra13[at]gmail[dot]com)
 	 * @since 1.8.0
@@ -626,8 +626,8 @@ public final class ImageLoaderConfiguration {
 	}
 
 	/**
-	 * Decorator. Handles <a href="http://code.google.com/p/android/issues/detail?id=6066">this problem</a> on slow networks
-	 * using {@link com.nostra13.universalimageloader.core.assist.FlushedInputStream}.
+	 * ImageDownloader 的装饰类. 处理 <a href="http://code.google.com/p/android/issues/detail?id=6066"> 这个问题</a> 当网速慢时使用
+	 * {@link com.nostra13.universalimageloader.core.assist.FlushedInputStream}.
 	 *
 	 * @author Sergey Tarasevich (nostra13[at]gmail[dot]com)
 	 * @since 1.8.1
