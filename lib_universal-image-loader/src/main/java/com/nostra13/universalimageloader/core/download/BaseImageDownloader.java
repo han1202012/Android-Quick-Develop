@@ -148,9 +148,9 @@ public class BaseImageDownloader implements ImageDownloader {
 	 * 根据输入的 URL 地址 创建 {@linkplain HttpURLConnection HTTP 连接}
 	 *
 	 * @param url   要连接的 URL 地址
-	 * @param extra Auxiliary object which was passed to {@link DisplayImageOptions.Builder#extraForDownloader(Object)
-	 *              DisplayImageOptions.extraForDownloader(Object)}; can be null
-	 * @return {@linkplain HttpURLConnection Connection} for incoming URL. Connection isn't established so it still configurable.
+	 * @param extra 被传给 {@link DisplayImageOptions.Builder#extraForDownloader(Object)
+	 *              DisplayImageOptions.extraForDownloader(Object)} 的附加对象; 可以为 null
+	 * @return {@linkplain HttpURLConnection 连接} 传入的 URL 地址. Connection isn't established so it still configurable.
 	 * @throws IOException if some I/O error occurs during network request or if no InputStream could be created for
 	 *                     URL.
 	 */
