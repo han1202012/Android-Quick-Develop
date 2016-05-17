@@ -333,7 +333,7 @@ public class DropDownListView extends ListView implements OnScrollListener {
     }
 
     @Override
-    public void setOnScrollListener(AbsListView.OnScrollListener listener) {
+    public void setOnScrollListener(OnScrollListener listener) {
         onScrollListener = listener;
     }
 
