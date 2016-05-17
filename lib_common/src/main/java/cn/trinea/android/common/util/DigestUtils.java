@@ -3,14 +3,14 @@ package cn.trinea.android.common.util;
 import java.security.MessageDigest;
 
 /**
- * DigestUtils
+ * 数字工具
  * 
  * @author <a href="http://www.trinea.cn" target="_blank">Trinea</a> 2014-03-20
  */
 public class DigestUtils {
 
     /**
-     * Used to build output as Hex
+     * 用于创建输出十六进制格式的字符
      */
     private static final char[] DIGITS_LOWER = {'0', '1', '2', '3', '4', '5', '6', '7', '8', '9', 'a', 'b', 'c', 'd',
             'e', 'f'                         };
@@ -20,7 +20,7 @@ public class DigestUtils {
     }
 
     /**
-     * encode By MD5
+     * 将字符串转为 MD5 编码
      * 
      * @param str
      * @return String
