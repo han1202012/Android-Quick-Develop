@@ -15,6 +15,7 @@ package com.midisheetmusic;
 import java.io.*;
 
 /** @class TimeSignature 时间签名
+ *
  * The TimeSignature class represents
  * - The time signature of the song, such as 4/4, 3/4, or 6/8 time, and
  * - The number of pulses per quarter note
@@ -27,8 +28,8 @@ import java.io.*;
  */
 
 public class TimeSignature implements Serializable {
-    private int numerator;      /** Numerator of the time signature */
-    private int denominator;    /** Denominator of the time signature */
+    private int numerator;      /** 时间签名分子 */
+    private int denominator;    /** 时间签名分母 */
     private int quarternote;    /** Number of pulses per quarter note */
     private int measure;        /** Number of pulses per measure */
     private int tempo;          /** Number of microseconds per quarter note */
