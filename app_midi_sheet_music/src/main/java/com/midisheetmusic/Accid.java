@@ -13,9 +13,12 @@
 
 package com.midisheetmusic;
 
-/** Accidentals */
+/** Accidentals 临时记号 */
 public enum Accid {
-    None, Sharp, Flat, Natural
+    None,   
+    Sharp,
+    Flat,
+    Natural
 }
 
 
