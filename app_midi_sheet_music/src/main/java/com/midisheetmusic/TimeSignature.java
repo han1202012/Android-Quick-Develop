@@ -30,8 +30,8 @@ import java.io.*;
 public class TimeSignature implements Serializable {
     private int numerator;      /** 时间签名分子 */
     private int denominator;    /** 时间签名分母 */
-    private int quarternote;    /** Number of pulses per quarter note */
-    private int measure;        /** Number of pulses per measure */
+    private int quarternote;    /** 每个四分音符的 pulses 个数 */
+    private int measure;        /** 每个 measure 包含的 pulses 个数 */
     private int tempo;          /** Number of microseconds per quarter note */
 
     /** Get the numerator of the time signature */
