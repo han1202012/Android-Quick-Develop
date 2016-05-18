@@ -32,7 +32,7 @@ public class TimeSignature implements Serializable {
     private int denominator;    /** 时间签名分母 */
     private int quarternote;    /** 每个四分音符的 pulses 个数 */
     private int measure;        /** 每个 measure 包含的 pulses 个数 */
-    private int tempo;          /** Number of microseconds per quarter note */
+    private int tempo;          /** 每个四分音符的 微秒 数 */
 
     /** Get the numerator of the time signature */
     public int getNumerator() { return numerator; }
