@@ -17,7 +17,7 @@ package com.midisheetmusic;
 import android.graphics.*;
 
 
-/** @class AccidSymbol
+/** @class AccidSymbol 临时音符
  * An accidental (accid) symbol represents a sharp, flat, or natural
  * accidental that is displayed at a specific position (note and clef).
  */
