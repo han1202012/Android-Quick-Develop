@@ -28,7 +28,7 @@ public class AccidSymbol implements MusicSymbol {
     private int width;            /** Width of symbol */
 
     /** 
-     * Create a new AccidSymbol with the given accidental, that is
+     * 创建一个新的 AccidSymbol Create a new AccidSymbol with the given accidental, that is
      * displayed at the given note in the given clef.
      */
     public AccidSymbol(Accid accid, WhiteNote note, Clef clef) {
