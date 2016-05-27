@@ -73,7 +73,7 @@ public class AccidSymbol implements MusicSymbol {
             return 0;
     }
 
-    /** Get the number of pixels this symbol extends below the staff. Used
+    /** 获取像素 Get the number of pixels this symbol extends below the staff. Used
      *  to determine the minimum height needed for the staff (Staff.FindBounds).
      */
     public int getBelowStaff() {
