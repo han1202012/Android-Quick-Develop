@@ -1,15 +1,15 @@
 package cn.trinea.android.common.util;
 
-import java.util.List;
-
 import android.app.ActivityManager;
 import android.app.ActivityManager.RunningAppProcessInfo;
 import android.app.ActivityManager.RunningTaskInfo;
 import android.content.ComponentName;
 import android.content.Context;
 
+import java.util.List;
+
 /**
- * AppUtils
+ * AppUtils APP 相关工具类
  * <ul>
  * <li>{@link AppUtils#isNamedProcess(Context, String)}</li>
  * </ul>
