@@ -26,17 +26,17 @@ import com.nostra13.universalimageloader.core.assist.ViewScaleType;
 import com.nostra13.universalimageloader.core.download.ImageDownloader;
 
 /**
- * Contains needed information for decoding image to Bitmap
+ * 包含 将 图片 解码成 Bitmap 对象所需的信息
  *
  * @author Sergey Tarasevich (nostra13[at]gmail[dot]com)
  * @since 1.8.3
  */
 public class ImageDecodingInfo {
 
-	private final String imageKey;
-	private final String imageUri;
-	private final String originalImageUri;
-	private final ImageSize targetSize;
+	private final String imageKey;					//内存缓存中使用的 key
+	private final String imageUri;					//图片的 URI 地址
+	private final String originalImageUri;			//被传递给 ImageLoader 的最初的 图片 URI 地址
+	private final ImageSize targetSize;				//解码后的图片目标大小
 
 	private final ImageScaleType imageScaleType;
 	private final ViewScaleType viewScaleType;
@@ -92,24 +92,24 @@ public class ImageDecodingInfo {
 		destOptions.inMutable = srcOptions.inMutable;
 	}
 
-	/** @return Original {@linkplain com.nostra13.universalimageloader.utils.MemoryCacheUtils#generateKey(String, ImageSize) image key} (used in memory cache). */
+	/** @return Original {@linkplain com.nostra13.universalimageloader.utils.MemoryCacheUtils#generateKey(String, ImageSize) image key} (在内存缓冲中使用). */
 	public String getImageKey() {
 		return imageKey;
 	}
 
-	/** @return Image URI for decoding (usually image from disk cache) */
+	/** @return 需要解码的图片 URI 地址 (通常是从磁盘缓存获取的图片) */
 	public String getImageUri() {
 		return imageUri;
 	}
 
-	/** @return The original image URI which was passed to ImageLoader */
+	/** @return 被传递给 ImageLoader 的最初的 图片 URI 地址 */
 	public String getOriginalImageUri() {
 		return originalImageUri;
 	}
 
 	/**
-	 * @return Target size for image. Decoded bitmap should close to this size according to {@linkplain ImageScaleType
-	 * image scale type} and {@linkplain ViewScaleType view scale type}.
+	 * @return 图片的目标大小. 根据  {@linkplain ImageScaleType
+	 * image scale type} 和 {@linkplain ViewScaleType view scale type} 解码后的 Bitmap 对象的图片大小应该接近这个大小.
 	 */
 	public ImageSize getTargetSize() {
 		return targetSize;

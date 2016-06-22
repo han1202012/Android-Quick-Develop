@@ -20,7 +20,7 @@ import android.graphics.Bitmap;
 import java.io.IOException;
 
 /**
- * Provide decoding image to result {@link Bitmap}.
+ * 将图片解析成 Bitmap 对象 {@link Bitmap}.
  *
  * @author Sergey Tarasevich (nostra13[at]gmail[dot]com)
  * @see ImageDecodingInfo
@@ -29,7 +29,7 @@ import java.io.IOException;
 public interface ImageDecoder {
 
 	/**
-	 * Decodes image to {@link Bitmap} according target size and other parameters.
+	 * 根据目标大小和指定的其它参数将图片解析成 Bitmap 对象 {@link Bitmap} .
 	 *
 	 * @param imageDecodingInfo
 	 * @return

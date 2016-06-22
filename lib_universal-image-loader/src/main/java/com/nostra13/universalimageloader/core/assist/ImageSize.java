@@ -16,7 +16,7 @@
 package com.nostra13.universalimageloader.core.assist;
 
 /**
- * Present width and height values
+ * 提供一个宽度和高度值
  *
  * @author Sergey Tarasevich (nostra13[at]gmail[dot]com)
  * @since 1.0.0
