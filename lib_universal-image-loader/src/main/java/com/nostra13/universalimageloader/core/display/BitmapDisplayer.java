@@ -20,7 +20,7 @@ import com.nostra13.universalimageloader.core.assist.LoadedFrom;
 import com.nostra13.universalimageloader.core.imageaware.ImageAware;
 
 /**
- * Displays {@link Bitmap} in {@link com.nostra13.universalimageloader.core.imageaware.ImageAware}. Implementations can
+ * 展示Displays {@link Bitmap} in {@link com.nostra13.universalimageloader.core.imageaware.ImageAware}. Implementations can
  * apply some changes to Bitmap or any animation for displaying Bitmap.<br />
  * Implementations have to be thread-safe.
  *
