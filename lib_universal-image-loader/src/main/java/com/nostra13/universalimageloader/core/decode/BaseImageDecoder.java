@@ -58,8 +58,7 @@ public class BaseImageDecoder implements ImageDecoder {
 	}
 
 	/**
-	 * Decodes image from URI into {@link Bitmap}. Image is scaled close to incoming {@linkplain ImageSize target size}
-	 * during decoding (depend on incoming parameters).
+	 * 根据 URI 地址 将图片解码成 Bitmap 对象 {@link Bitmap}. 解码过程中图片应该缩放到输入的  {@linkplain ImageSize 目标大小} 参数.
 	 *
 	 * @param decodingInfo Needed data for decoding image
 	 * @return Decoded bitmap
