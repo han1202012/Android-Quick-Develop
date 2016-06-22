@@ -80,6 +80,14 @@ public class BaseImageDownloader implements ImageDownloader {
 		this.readTimeout = readTimeout;
 	}
 
+	/**
+	 * 根据 Uri 获取输入流
+	 * @param imageUri 图片 URI
+	 * @param extra    传递给 Builder.extraForDownloader 或 DisplayImageOptions.extraForDownloader 的辅助类, 可以是 null.
+	 *
+	 * @return
+	 * @throws IOException
+	 */
 	@Override
 	public InputStream getStream(String imageUri, Object extra) throws IOException {
 		switch (Scheme.ofUri(imageUri)) {
@@ -135,6 +143,7 @@ public class BaseImageDownloader implements ImageDownloader {
 	}
 
 	/**
+	 * 判断一个链接是否可用
 	 * @param conn 已经打开的请求连接 (返回码是可用的)
 	 * @return <b>true</b> - 如果从连接获取的数据是正确的 并且 应该被读取 和 处理;
 	 *         <b>false</b> - 如果返回码包含不想管的数据 并且 不应该被处理
@@ -150,7 +159,7 @@ public class BaseImageDownloader implements ImageDownloader {
 	 * @param url   要连接的 URL 地址
 	 * @param extra 被传给 {@link DisplayImageOptions.Builder#extraForDownloader(Object)
 	 *              DisplayImageOptions.extraForDownloader(Object)} 的附加对象; 可以为 null
-	 * @return {@linkplain HttpURLConnection 连接} 传入的 URL 地址. Connection isn't established so it still configurable.
+	 * @return {@linkplain HttpURLConnection 连接} 传入的 URL 地址. 链接没有被创建, 因此它是可配置的.
 	 * @throws IOException if some I/O error occurs during network request or if no InputStream could be created for
 	 *                     URL.
 	 */
@@ -163,11 +172,11 @@ public class BaseImageDownloader implements ImageDownloader {
 	}
 
 	/**
-	 * Retrieves {@link InputStream} of image by URI (image is located on the local file system or SD card).
+	 * 根据 URI 获取 输入流 {@link InputStream} 的引用 (图片在本地文件系统 或 SD 卡中).
 	 *
-	 * @param imageUri Image URI
-	 * @param extra    Auxiliary object which was passed to {@link DisplayImageOptions.Builder#extraForDownloader(Object)
-	 *                 DisplayImageOptions.extraForDownloader(Object)}; can be null
+	 * @param imageUri 图片的 URI 地址
+	 * @param extra    被传给 {@link DisplayImageOptions.Builder#extraForDownloader(Object)
+	 *              DisplayImageOptions.extraForDownloader(Object)} 的附加对象; 可以为 null
 	 * @return {@link InputStream} of image
 	 * @throws IOException if some I/O error occurs reading from file system
 	 */
@@ -181,6 +190,11 @@ public class BaseImageDownloader implements ImageDownloader {
 		}
 	}
 
+	/**
+	 * 获取视频流的 URI
+	 * @param filePath
+	 * @return
+	 */
 	@TargetApi(Build.VERSION_CODES.FROYO)
 	private InputStream getVideoThumbnailStream(String filePath) {
 		if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.FROYO) {
@@ -196,11 +210,11 @@ public class BaseImageDownloader implements ImageDownloader {
 	}
 
 	/**
-	 * Retrieves {@link InputStream} of image by URI (image is accessed using {@link ContentResolver}).
+	 * 根据 URI 获取 输入流 {@link InputStream} 的引用 (使用 ContentProvider {@link ContentResolver} 获取图片).
 	 *
 	 * @param imageUri Image URI
-	 * @param extra    Auxiliary object which was passed to {@link DisplayImageOptions.Builder#extraForDownloader(Object)
-	 *                 DisplayImageOptions.extraForDownloader(Object)}; can be null
+	 * @param extra    被传给 {@link DisplayImageOptions.Builder#extraForDownloader(Object)
+	 *              DisplayImageOptions.extraForDownloader(Object)} 的附加对象; 可以为 null
 	 * @return {@link InputStream} of image
 	 * @throws FileNotFoundException if the provided URI could not be opened
 	 */
@@ -224,6 +238,11 @@ public class BaseImageDownloader implements ImageDownloader {
 		return res.openInputStream(uri);
 	}
 
+	/**
+	 * 获取照片中的图片输入流
+	 * @param uri
+	 * @return
+	 */
 	@TargetApi(Build.VERSION_CODES.ICE_CREAM_SANDWICH)
 	protected InputStream getContactPhotoStream(Uri uri) {
 		ContentResolver res = context.getContentResolver();
@@ -235,11 +254,11 @@ public class BaseImageDownloader implements ImageDownloader {
 	}
 
 	/**
-	 * Retrieves {@link InputStream} of image by URI (image is located in assets of application).
+	 * 根据 URI 获取 输入流 {@link InputStream} 的引用  (图片在应用的 assets 目录下).
 	 *
 	 * @param imageUri Image URI
-	 * @param extra    Auxiliary object which was passed to {@link DisplayImageOptions.Builder#extraForDownloader(Object)
-	 *                 DisplayImageOptions.extraForDownloader(Object)}; can be null
+	 * @param extra    被传给 {@link DisplayImageOptions.Builder#extraForDownloader(Object)
+	 *              DisplayImageOptions.extraForDownloader(Object)} 的附加对象; 可以为 null
 	 * @return {@link InputStream} of image
 	 * @throws IOException if some I/O error occurs file reading
 	 */
@@ -249,11 +268,11 @@ public class BaseImageDownloader implements ImageDownloader {
 	}
 
 	/**
-	 * Retrieves {@link InputStream} of image by URI (image is located in drawable resources of application).
+	 * 根据 URI 获取 输入流 {@link InputStream} 的引用  (图片在应用的 drawable 资源目录中).
 	 *
 	 * @param imageUri Image URI
-	 * @param extra    Auxiliary object which was passed to {@link DisplayImageOptions.Builder#extraForDownloader(Object)
-	 *                 DisplayImageOptions.extraForDownloader(Object)}; can be null
+	 * @param extra    被传给 {@link DisplayImageOptions.Builder#extraForDownloader(Object)
+	 *              DisplayImageOptions.extraForDownloader(Object)} 的附加对象; 可以为 null
 	 * @return {@link InputStream} of image
 	 */
 	protected InputStream getStreamFromDrawable(String imageUri, Object extra) {
@@ -263,14 +282,14 @@ public class BaseImageDownloader implements ImageDownloader {
 	}
 
 	/**
-	 * Retrieves {@link InputStream} of image by URI from other source with unsupported scheme. Should be overriden by
-	 * successors to implement image downloading from special sources.<br />
-	 * This method is called only if image URI has unsupported scheme. Throws {@link UnsupportedOperationException} by
-	 * default.
+	 * 通过 URI 获取图片的输入流引用中, URI 类型是不支持的类型.
+	 * 该方法需要被重写去实现下载特殊 种类的 URI 资源.<br />
+	 *
+	 * 只有在 图片的 URI 不支持的时候才会回调该方法. 默认抛出 {@link UnsupportedOperationException} 异常
 	 *
 	 * @param imageUri Image URI
-	 * @param extra    Auxiliary object which was passed to {@link DisplayImageOptions.Builder#extraForDownloader(Object)
-	 *                 DisplayImageOptions.extraForDownloader(Object)}; can be null
+	 * @param extra    被传给 {@link DisplayImageOptions.Builder#extraForDownloader(Object)
+	 *              DisplayImageOptions.extraForDownloader(Object)} 的附加对象; 可以为 null
 	 * @return {@link InputStream} of image
 	 * @throws IOException                   if some I/O error occurs
 	 * @throws UnsupportedOperationException if image URI has unsupported scheme(protocol)
