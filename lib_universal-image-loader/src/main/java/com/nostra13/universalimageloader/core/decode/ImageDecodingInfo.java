@@ -38,14 +38,14 @@ public class ImageDecodingInfo {
 	private final String originalImageUri;			//被传递给 ImageLoader 的最初的 图片 URI 地址
 	private final ImageSize targetSize;				//解码后的图片目标大小
 
-	private final ImageScaleType imageScaleType;
-	private final ViewScaleType viewScaleType;
+	private final ImageScaleType imageScaleType;	//图片缩放类型
+	private final ViewScaleType viewScaleType;		//View 组件的缩放类型
 
-	private final ImageDownloader downloader;
-	private final Object extraForDownloader;
+	private final ImageDownloader downloader;		//图片加载时的下载器
+	private final Object extraForDownloader;		//附加对象
 
-	private final boolean considerExifParams;
-	private final Options decodingOptions;
+	private final boolean considerExifParams;		//是否考虑 EXIF 参数, 含有相机的各项参数
+	private final Options decodingOptions;			//解析成 Bitmap 对象的参数
 
 	public ImageDecodingInfo(String imageKey, String imageUri, String originalImageUri, ImageSize targetSize, ViewScaleType viewScaleType,
 							 ImageDownloader downloader, DisplayImageOptions displayOptions) {
@@ -116,34 +116,33 @@ public class ImageDecodingInfo {
 	}
 
 	/**
-	 * @return {@linkplain ImageScaleType Scale type for image sampling and scaling}. This parameter affects result size
-	 * of decoded bitmap.
+	 * @return {@linkplain ImageScaleType 图片采样和缩放比例的 缩放类型}. 该参数影响解码后的 Bitmap 对象的大小.
 	 */
 	public ImageScaleType getImageScaleType() {
 		return imageScaleType;
 	}
 
-	/** @return {@linkplain ViewScaleType View scale type}. This parameter affects result size of decoded bitmap. */
+	/** @return {@linkplain ViewScaleType View 组件的缩放类型}. 该参数影响解码后的 Bitmap 对象的大小. */
 	public ViewScaleType getViewScaleType() {
 		return viewScaleType;
 	}
 
-	/** @return Downloader for image loading */
+	/** @return 图片加载时的下载器 */
 	public ImageDownloader getDownloader() {
 		return downloader;
 	}
 
-	/** @return Auxiliary object for downloader */
+	/** @return 下载器的附加对象 */
 	public Object getExtraForDownloader() {
 		return extraForDownloader;
 	}
 
-	/** @return <b>true</b> - if EXIF params of image should be considered; <b>false</b> - otherwise */
+	/** @return <b>true</b> - 是否考虑 EXIF 参数; <b>false</b> - otherwise */
 	public boolean shouldConsiderExifParams() {
 		return considerExifParams;
 	}
 
-	/** @return Decoding options */
+	/** @return 解码的相关选项 */
 	public Options getDecodingOptions() {
 		return decodingOptions;
 	}

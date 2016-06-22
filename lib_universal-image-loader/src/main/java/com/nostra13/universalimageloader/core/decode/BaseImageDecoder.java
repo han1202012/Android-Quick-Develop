@@ -31,7 +31,7 @@ import java.io.IOException;
 import java.io.InputStream;
 
 /**
- * Decodes images to {@link Bitmap}, scales them to needed size
+ * 将图片解码成 {@link Bitmap} 对象, 并 缩放到需要的大小
  *
  * @author Sergey Tarasevich (nostra13[at]gmail[dot]com)
  * @see ImageDecodingInfo
