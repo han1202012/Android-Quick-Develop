@@ -82,13 +82,13 @@ public class ImageListFragment extends AbsListViewBaseFragment {
 			inflater = LayoutInflater.from(context);
 
 			options = new DisplayImageOptions.Builder()
-					.showImageOnLoading(R.drawable.ic_stub)
-					.showImageForEmptyUri(R.drawable.ic_empty)
-					.showImageOnFail(R.drawable.ic_error)
-					.cacheInMemory(true)
-					.cacheOnDisk(true)
-					.considerExifParams(true)
-					.displayer(new CircleBitmapDisplayer(Color.WHITE, 5))
+					.showImageOnLoading(R.drawable.ic_stub)		//设置加载时的图片
+					.showImageForEmptyUri(R.drawable.ic_empty)	//设置没有 Uri 地址时的图片
+					.showImageOnFail(R.drawable.ic_error)		//设置加载失败时的图片
+					.cacheInMemory(true)						//设置内存缓存
+					.cacheOnDisk(true)							//设置硬盘缓存
+					.considerExifParams(true)					//考虑相机参数
+					.displayer(new CircleBitmapDisplayer(Color.WHITE, 5))//设置加载器, 将图片切成圆形展示出来
 					.build();
 		}
 
@@ -123,15 +123,16 @@ public class ImageListFragment extends AbsListViewBaseFragment {
 
 			holder.text.setText("Item " + (position + 1));
 
+			//加载 并 显示图片
 			ImageLoader.getInstance().displayImage(IMAGE_URLS[position], holder.image, options, animateFirstListener);
 
 			return view;
 		}
-	}
 
-	static class ViewHolder {
-		TextView text;
-		ImageView image;
+		static class ViewHolder {
+			TextView text;
+			ImageView image;
+		}
 	}
 
 	private static class AnimateFirstDisplayListener extends SimpleImageLoadingListener {
