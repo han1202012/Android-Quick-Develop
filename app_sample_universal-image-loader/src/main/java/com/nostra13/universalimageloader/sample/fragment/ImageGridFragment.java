@@ -68,13 +68,13 @@ public class ImageGridFragment extends AbsListViewBaseFragment {
 			inflater = LayoutInflater.from(context);
 
 			options = new DisplayImageOptions.Builder()
-					.showImageOnLoading(R.drawable.ic_stub)
-					.showImageForEmptyUri(R.drawable.ic_empty)
-					.showImageOnFail(R.drawable.ic_error)
-					.cacheInMemory(true)
-					.cacheOnDisk(true)
-					.considerExifParams(true)
-					.bitmapConfig(Bitmap.Config.RGB_565)
+					.showImageOnLoading(R.drawable.ic_stub)		//设置加载时显示的图片
+					.showImageForEmptyUri(R.drawable.ic_empty)	//设置 Uri 为 空时显示的图片
+					.showImageOnFail(R.drawable.ic_error)		//设置加载失败显示的图片
+					.cacheInMemory(true)						//设置内存缓存
+					.cacheOnDisk(true)							//设置磁盘缓存
+					.considerExifParams(true)					//考虑相机参数
+					.bitmapConfig(Bitmap.Config.RGB_565)		//设置解码参数
 					.build();
 		}
 
@@ -108,6 +108,7 @@ public class ImageGridFragment extends AbsListViewBaseFragment {
 				holder = (ViewHolder) view.getTag();
 			}
 
+			//加载 并 显示图片, 设置加载监听器 监听 开始加载 加载失败 加载完成 事件
 			ImageLoader.getInstance()
 					.displayImage(IMAGE_URLS[position], holder.imageView, options, new SimpleImageLoadingListener() {
 						@Override
@@ -134,10 +135,11 @@ public class ImageGridFragment extends AbsListViewBaseFragment {
 
 			return view;
 		}
+
+		static class ViewHolder {
+			ImageView imageView;
+			ProgressBar progressBar;
+		}
 	}
 
-	static class ViewHolder {
-		ImageView imageView;
-		ProgressBar progressBar;
-	}
 }
