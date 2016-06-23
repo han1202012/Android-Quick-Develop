@@ -54,23 +54,23 @@ public class ImagePagerFragment extends BaseFragment {
 
 	private static class ImageAdapter extends PagerAdapter {
 
-		private static final String[] IMAGE_URLS = Constants.IMAGES;
+		private static final String[] IMAGE_URLS = Constants.IMAGES_CN;
 
 		private LayoutInflater inflater;
-		private DisplayImageOptions options;
+		private DisplayImageOptions options;	//图片展示选项
 
 		ImageAdapter(Context context) {
 			inflater = LayoutInflater.from(context);
 
 			options = new DisplayImageOptions.Builder()
-					.showImageForEmptyUri(R.drawable.ic_empty)
-					.showImageOnFail(R.drawable.ic_error)
-					.resetViewBeforeLoading(true)
-					.cacheOnDisk(true)
-					.imageScaleType(ImageScaleType.EXACTLY)
-					.bitmapConfig(Bitmap.Config.RGB_565)
-					.considerExifParams(true)
-					.displayer(new FadeInBitmapDisplayer(300))
+					.showImageForEmptyUri(R.drawable.ic_empty)	//设置没有加载图片时展示的图片
+					.showImageOnFail(R.drawable.ic_error)		//设置加载失败后展示的图片
+					.resetViewBeforeLoading(true)				//设置 ImageAware 在图片加载前是否重置
+					.cacheOnDisk(true)							//是否在本地缓存
+					.imageScaleType(ImageScaleType.EXACTLY)		//设置图片缩放模式
+					.bitmapConfig(Bitmap.Config.RGB_565)		//设置图片的编码方式
+					.considerExifParams(true)					//是否考虑相机相关参数
+					.displayer(new FadeInBitmapDisplayer(300))	//设置显示器, 显示时使用 淡入 动画
 					.build();
 		}
 
@@ -91,6 +91,7 @@ public class ImagePagerFragment extends BaseFragment {
 			ImageView imageView = (ImageView) imageLayout.findViewById(R.id.image);
 			final ProgressBar spinner = (ProgressBar) imageLayout.findViewById(R.id.loading);
 
+			//加载显示图片的核心功能方法
 			ImageLoader.getInstance().displayImage(IMAGE_URLS[position], imageView, options, new SimpleImageLoadingListener() {
 				@Override
 				public void onLoadingStarted(String imageUri, View view) {

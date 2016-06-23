@@ -20,6 +20,54 @@ package com.nostra13.universalimageloader.sample;
  */
 public final class Constants {
 
+
+	public static final String[] IMAGES_CN = new String[]{
+			"http://img.ivsky.com/img/tupian/pre/201605/12/cat.jpg",
+			"http://img.ivsky.com/img/tupian/pre/201605/12/cat-001.jpg",
+			"http://img.ivsky.com/img/tupian/pre/201605/12/cat-002.jpg",
+			"http://img.ivsky.com/img/tupian/pre/201605/12/cat-003.jpg",
+			"http://img.ivsky.com/img/tupian/pre/201605/12/cat-004.jpg",
+			"http://img.ivsky.com/img/tupian/pre/201605/12/cat-005.jpg",
+			"http://img.ivsky.com/img/tupian/pre/201605/12/cat-006.jpg",
+			"http://img.ivsky.com/img/tupian/pre/201605/12/cat-007.jpg",
+			"http://img.ivsky.com/img/tupian/pre/201605/12/cat-008.jpg",
+			"http://img.ivsky.com/img/tupian/pre/201605/12/cat-009.jpg",
+			"http://img.ivsky.com/img/tupian/pre/201605/12/cat-010.jpg",
+			"http://img.ivsky.com/img/tupian/pre/201605/12/cat-011.jpg",
+			"http://img.ivsky.com/img/tupian/pre/201507/01/yindian_meinv.jpg",
+			"http://img.ivsky.com/img/tupian/pre/201507/01/yindian_meinv-001.jpg",
+			"http://img.ivsky.com/img/tupian/pre/201507/01/yindian_meinv-002.jpg",
+			"http://img.ivsky.com/img/tupian/pre/201507/01/yindian_meinv-003.jpg",
+			"http://img.ivsky.com/img/tupian/pre/201507/01/yindian_meinv-004.jpg",
+			"http://img.ivsky.com/img/tupian/pre/201507/01/yindian_meinv-005.jpg",
+			"http://img.ivsky.com/img/tupian/pre/201507/01/yindian_meinv-006.jpg",
+			"http://img.ivsky.com/img/tupian/pre/201507/01/yindian_meinv-007.jpg",
+			"http://img.ivsky.com/img/tupian/pre/201507/01/yindian_meinv-008.jpg",
+			"http://img.ivsky.com/img/tupian/pre/201507/02/shenlinxi_nvhai.jpg",
+			"http://img.ivsky.com/img/tupian/pre/201507/02/shenlinxi_nvhai-001.jpg",
+			"http://img.ivsky.com/img/tupian/pre/201507/02/shenlinxi_nvhai-002.jpg",
+			"http://img.ivsky.com/img/tupian/pre/201507/02/shenlinxi_nvhai-003.jpg",
+			"http://img.ivsky.com/img/tupian/pre/201507/02/shenlinxi_nvhai-004.jpg",
+			"http://img.ivsky.com/img/tupian/pre/201507/02/shenlinxi_nvhai-005.jpg",
+			"http://img.ivsky.com/img/tupian/pre/201507/02/shenlinxi_nvhai-006.jpg",
+			"http://img.ivsky.com/img/tupian/pre/201507/02/shenlinxi_nvhai-007.jpg",
+			"http://img.ivsky.com/img/tupian/pre/201507/02/shenlinxi_nvhai-008.jpg",
+			"http://img.ivsky.com/img/tupian/pre/201512/07/dongman_shaonv.jpg",
+			"http://img.ivsky.com/img/tupian/pre/201512/07/dongman_shaonv-001.jpg",
+			"http://img.ivsky.com/img/tupian/pre/201512/07/dongman_shaonv-002.jpg",
+			"http://img.ivsky.com/img/tupian/pre/201512/07/dongman_shaonv-003.jpg",
+			"http://img.ivsky.com/img/tupian/pre/201512/07/dongman_shaonv-004.jpg",
+			"http://img.ivsky.com/img/tupian/pre/201512/07/dongman_shaonv-005.jpg",
+			"http://img.ivsky.com/img/tupian/pre/201512/07/dongman_shaonv-006.jpg",
+			"http://img.ivsky.com/img/tupian/pre/201512/07/dongman_shaonv-007.jpg",
+			"http://img.ivsky.com/img/tupian/pre/201512/07/dongman_shaonv-008.jpg",
+			"http://img.ivsky.com/img/tupian/pre/201512/07/dongman_shaonv-009.jpg",
+			"http://img.ivsky.com/img/tupian/pre/201512/07/dongman_shaonv-010.jpg",
+			"http://img.ivsky.com/img/tupian/pre/201512/07/dongman_shaonv-011.jpg",
+			"http://img.ivsky.com/img/tupian/pre/201512/07/dongman_shaonv-012.jpg"
+
+	};
+
 	public static final String[] IMAGES = new String[] {
 			// Heavy images
 			"https://lh6.googleusercontent.com/-55osAWw3x0Q/URquUtcFr5I/AAAAAAAAAbs/rWlj1RUKrYI/s1024/A%252520Photographer.jpg",
