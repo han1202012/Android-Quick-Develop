@@ -67,7 +67,7 @@ public class ImageGalleryFragment extends BaseFragment {
 
 	private static class ImageAdapter extends BaseAdapter {
 
-		private static final String[] IMAGE_URLS = Constants.IMAGES;
+		private static final String[] IMAGE_URLS = Constants.IMAGES_CN;
 
 		private LayoutInflater inflater;
 
