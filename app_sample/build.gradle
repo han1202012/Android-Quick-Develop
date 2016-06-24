@@ -19,6 +19,12 @@ android {
     }
 }
 
+repositories {
+    flatDir{
+        dirs 'libs'
+    }
+}
+
 dependencies {
     compile fileTree(include: ['*.jar'], dir: 'libs')
     testCompile 'junit:junit:4.12'
@@ -28,5 +34,6 @@ dependencies {
     compile project(':lib_octopus')
     compile project(':lib_common')
     compile project(':lib_xutils')
+    compile (name: 'andbase', ext: 'aar')
     //compile project(':lib_universal-image-loader')
 }
