@@ -17,6 +17,4 @@ Common 解析 :
 
 MidiSheetMusic 开源项目解析 : 主要是五线谱应用
 
-作者 : 韩曙亮
-
 
