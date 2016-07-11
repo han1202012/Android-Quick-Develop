@@ -18,15 +18,15 @@ package com.example.android.common.midi.synth;
 
 public abstract class SynthUnit {
 
-    private static final double CONCERT_A_PITCH = 69.0;
-    private static final double CONCERT_A_FREQUENCY = 440.0;
+    private static final double CONCERT_A_PITCH = 69.0;         //音高
+    private static final double CONCERT_A_FREQUENCY = 440.0;    //频率
 
     /**
      * @param pitch
      *            MIDI pitch in semitones
      * @return frequency
      */
-    public static double pitchToFrequency(double pitch) {
+    public static double pitchToFrequency(double pitch) {   //将音高转为频率
         double semitones = pitch - CONCERT_A_PITCH;
         return CONCERT_A_FREQUENCY * Math.pow(2.0, semitones / 12.0);
     }
