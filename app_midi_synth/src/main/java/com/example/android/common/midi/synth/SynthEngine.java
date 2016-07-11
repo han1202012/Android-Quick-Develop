@@ -244,6 +244,11 @@ public class SynthEngine extends MidiReceiver {
         }
     }
 
+    /**
+     * 弯音变换
+     * @param channel
+     * @param bend
+     */
     public void pitchBend(int channel, int bend) {
         double semitones = (mBendRange * (bend - 0x2000)) / 0x2000;
         mFrequencyScaler = (float) Math.pow(2.0, semitones / 12.0);
