@@ -18,7 +18,12 @@ package com.example.android.common.midi.synth;
 
 /**
  * Band limited sawtooth oscillator.
+ *
+ * 锯齿波震荡振幅限制
+ *
  * This will have very little aliasing at high frequencies.
+ *
+ * 这样在高频率的情况下有一点量化噪声
  */
 public class SawOscillatorDPW extends SawOscillator {
     private float mZ1 = 0.0f; // delayed values

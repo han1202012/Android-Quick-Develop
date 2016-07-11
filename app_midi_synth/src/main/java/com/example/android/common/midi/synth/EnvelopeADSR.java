@@ -51,6 +51,7 @@ public class EnvelopeADSR extends SynthUnit {
     public void setAttackTime(float time) {
         if (time < MIN_TIME)
             time = MIN_TIME;
+        // SynthEngine.FRAME_RATE 采样率 48000
         mAttackRate = 1.0f / (SynthEngine.FRAME_RATE * time);
     }
 
