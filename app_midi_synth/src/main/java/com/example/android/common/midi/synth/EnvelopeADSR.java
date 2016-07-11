@@ -19,16 +19,20 @@ package com.example.android.common.midi.synth;
 /**
  * Very simple Attack, Decay, Sustain, Release envelope with linear ramps.
  *
+ * 简单的 起音, 衰减, 延音 (踏板), 释音 封装
+ *
  * Times are in seconds.
+ *
+ * 事件单位 为 秒
  */
 public class EnvelopeADSR extends SynthUnit {
-    private static final int IDLE = 0;
-    private static final int ATTACK = 1;
-    private static final int DECAY = 2;
-    private static final int SUSTAIN = 3;
-    private static final int RELEASE = 4;
+    private static final int IDLE = 0;      //空音
+    private static final int ATTACK = 1;    //起音
+    private static final int DECAY = 2;     //衰减
+    private static final int SUSTAIN = 3;   //延音
+    private static final int RELEASE = 4;   //释音
     private static final int FINISHED = 5;
-    private static final float MIN_TIME = 0.001f;
+    private static final float MIN_TIME = 0.001f;   //最小时间 0.001 秒, 即 1 ms
 
     private float mAttackRate;
     private float mRreleaseRate;

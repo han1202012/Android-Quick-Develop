@@ -37,13 +37,13 @@ public class SynthEngine extends MidiReceiver {
 
     private static final String TAG = "SynthEngine";
 
-    public static final int FRAME_RATE = 48000;
-    private static final int FRAMES_PER_BUFFER = 240;
-    private static final int SAMPLES_PER_FRAME = 2;
+    public static final int FRAME_RATE = 48000;         //采样率 48000, 1秒钟有 48000 个采样
+    private static final int FRAMES_PER_BUFFER = 240;   //1秒 有 200 帧, 每帧 5ms, 有 240 个采样
+    private static final int SAMPLES_PER_FRAME = 2;     //每帧的样本的长度 2 字节
 
     private boolean go;
     private Thread mThread;
-    private float[] mBuffer = new float[FRAMES_PER_BUFFER * SAMPLES_PER_FRAME];
+    private float[] mBuffer = new float[FRAMES_PER_BUFFER * SAMPLES_PER_FRAME]; //计算每帧的字节大小
     private float mFrequencyScaler = 1.0f;
     private float mBendRange = 2.0f; // semitones
     private int mProgram;
