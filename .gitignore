@@ -1,3 +1,7 @@
+/.idea/workspace.xml
+/.idea/libraries
+/build
+
 # Android generated
 bin/
 gen/

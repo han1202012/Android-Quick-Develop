@@ -51,7 +51,8 @@ public class EnvelopeADSR extends SynthUnit {
     public void setAttackTime(float time) {
         if (time < MIN_TIME)
             time = MIN_TIME;
-        // SynthEngine.FRAME_RATE 采样率 48000
+        // SynthEngine.FRAME_RATE 采样率 48000, 采样率 * 0.003 秒, 即需要的样本个数 144
+        // 1.0 / 需要的样本个数 = 起音的频率 = 1/144
         mAttackRate = 1.0f / (SynthEngine.FRAME_RATE * time);
     }
 
