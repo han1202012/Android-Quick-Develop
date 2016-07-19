@@ -23,7 +23,7 @@ package com.example.android.common.midi.synth;
  *
  * Times are in seconds.
  *
- * 事件单位 为 秒
+ * 时间单位 为 秒
  */
 public class EnvelopeADSR extends SynthUnit {
     private static final int IDLE = 0;      //空音
