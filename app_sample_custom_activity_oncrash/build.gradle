@@ -40,5 +40,5 @@ android {
 }
 
 dependencies {
-    compile project(':lib_custom_activity_oncrash')
+    compile project(':lib_oncrash')
 }

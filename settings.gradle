@@ -1,3 +1,3 @@
-include ':app_sample', ':lib_octopus', ':lib_xutils', ':app_sample_xutils', ':app_sample_rebound', ':lib_widget', ':lib_universal-image-loader', ':lib_highlight', ':app_sample_universal-image-loader', ':lib_custom_activity_oncrash', ':app_sample_custom_activity_oncrash', ':lib_logger', ':app_midi_synth'
+include ':app_sample', ':lib_octopus', ':lib_xutils', ':app_sample_xutils', ':app_sample_rebound', ':lib_widget', ':lib_universal-image-loader', ':lib_highlight', ':app_sample_universal-image-loader', ':lib_oncrash', ':app_sample_custom_activity_oncrash', ':lib_logger', ':app_midi_synth'
 include ':lib_common'
 include ':app_midi_sheet_music'
