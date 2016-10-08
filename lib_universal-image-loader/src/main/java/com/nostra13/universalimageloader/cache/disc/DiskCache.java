@@ -23,63 +23,67 @@ import java.io.IOException;
 import java.io.InputStream;
 
 /**
- * Interface for disk cache
+ * 硬盘缓存接口
+ * 提供的方法 :
+ * -- 1. 获取硬盘缓存根目录
+ * -- 2. 根据图片 URI 地址获取被缓存的图片文件的 File 对象
+ * -- 3. 保存图片到硬盘缓存
+ * -- 4. 关闭硬盘缓存
+ * -- 5. 清除硬盘缓存
  *
  * @author Sergey Tarasevich (nostra13[at]gmail[dot]com)
  * @since 1.9.2
  */
 public interface DiskCache {
 	/**
-	 * Returns root directory of disk cache
+	 * 返回硬盘缓存的根目录
 	 *
-	 * @return Root directory of disk cache
+	 * @return 硬盘缓存根目录
 	 */
 	File getDirectory();
 
 	/**
-	 * Returns file of cached image
+	 * 返回被缓存图片的 File 对象
 	 *
-	 * @param imageUri Original image URI
-	 * @return File of cached image or <b>null</b> if image wasn't cached
+	 * @param imageUri 图片的原始 URI 地址
+	 * @return 被缓存图片的 File 对象, 如果 图片没有被缓存, 返回 null.
 	 */
 	File get(String imageUri);
 
 	/**
-	 * Saves image stream in disk cache.
-	 * Incoming image stream shouldn't be closed in this method.
+	 * 保存图片流到硬盘缓存中.
+	 * 输入的图片流不应该在该方法中关闭.
 	 *
-	 * @param imageUri    Original image URI
-	 * @param imageStream Input stream of image (shouldn't be closed in this method)
-	 * @param listener    Listener for saving progress, can be ignored if you don't use
-	 *                    {@linkplain com.nostra13.universalimageloader.core.listener.ImageLoadingProgressListener
-	 *                    progress listener} in ImageLoader calls
-	 * @return <b>true</b> - if image was saved successfully; <b>false</b> - if image wasn't saved in disk cache.
+	 * @param imageUri    图片的原始 URI 地址
+	 * @param imageStream 图片输入流 (不应该在该方法中关闭输入流)
+	 * @param listener    保存进程监听器, 如果不使用 {@linkplain com.nostra13.universalimageloader.core.listener.ImageLoadingProgressListener
+	 *                    progress listener} 监听器在图片加载回调时, 可以忽略该参数
+	 * @return <b>true</b> - 如果文件被成功保存; <b>false</b> - 如果文件没有保存到硬盘缓存中.
 	 * @throws java.io.IOException
 	 */
 	boolean save(String imageUri, InputStream imageStream, IoUtils.CopyListener listener) throws IOException;
 
 	/**
-	 * Saves image bitmap in disk cache.
+	 * 保存图片到硬盘缓存中.
 	 *
-	 * @param imageUri Original image URI
-	 * @param bitmap   Image bitmap
-	 * @return <b>true</b> - if bitmap was saved successfully; <b>false</b> - if bitmap wasn't saved in disk cache.
+	 * @param imageUri 原始图片 URI 地址
+	 * @param bitmap   Bitmap 图片
+	 * @return <b>true</b> - 如果图片被成功保存; <b>false</b> - 如果图片没有被保存到硬盘缓存中.
 	 * @throws IOException
 	 */
 	boolean save(String imageUri, Bitmap bitmap) throws IOException;
 
 	/**
-	 * Removes image file associated with incoming URI
+	 * 移除传入的 URI 地址(参数) 相关图片文件
 	 *
-	 * @param imageUri Image URI
-	 * @return <b>true</b> - if image file is deleted successfully; <b>false</b> - if image file doesn't exist for
-	 * incoming URI or image file can't be deleted.
+	 * @param imageUri 图片 URI 地址
+	 * @return <b>true</b> - 如果文件被成功删除; <b>false</b> - 如果传入的 URI 地址对应的图片文件不存在, 或者图片文件不能被删除
 	 */
 	boolean remove(String imageUri);
 
-	/** Closes disk cache, releases resources. */
+	/** 关闭硬盘缓存, 释放资源. */
 	void close();
 
-	/** Clears disk cache. */
+	/** 清除硬盘缓存. */
 	void clear();
 }

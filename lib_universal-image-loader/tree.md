@@ -1,29 +1,29 @@
-├─cache
-│  ├─disc
-│  │  │  DiskCache.java
+├─cache 缓存包
+│  ├─disc 硬盘缓存相关包
+│  │  │  DiskCache.java 硬盘缓存接口
 │  │  │
-│  │  ├─impl
+│  │  ├─impl 硬盘缓存相关实现类包
 │  │  │  │  BaseDiskCache.java
 │  │  │  │  LimitedAgeDiskCache.java
 │  │  │  │  UnlimitedDiskCache.java
 │  │  │  │
-│  │  │  └─ext
+│  │  │  └─ext 硬盘缓存相关实现类包
 │  │  │          DiskLruCache.java
 │  │  │          LruDiskCache.java
 │  │  │          StrictLineReader.java
 │  │  │          Util.java
 │  │  │
-│  │  └─naming
+│  │  └─naming 硬盘缓存命名策略相关包
 │  │          FileNameGenerator.java
 │  │          HashCodeFileNameGenerator.java
 │  │          Md5FileNameGenerator.java
 │  │
-│  └─memory
+│  └─memory 内存缓存相关包
 │      │  BaseMemoryCache.java
 │      │  LimitedMemoryCache.java
 │      │  MemoryCache.java
 │      │
-│      └─impl
+│      └─impl 内存缓存实现类相关包
 │              FIFOLimitedMemoryCache.java
 │              FuzzyKeyMemoryCache.java
 │              LargestLimitedMemoryCache.java
@@ -92,7 +92,7 @@
 │  └─process
 │          BitmapProcessor.java
 │
-└─utils
+└─utils 工具类包
         DiskCacheUtils.java
         ImageSizeUtils.java
         IoUtils.java

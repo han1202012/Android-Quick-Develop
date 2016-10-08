@@ -29,7 +29,7 @@ import java.io.InputStream;
 import java.io.OutputStream;
 
 /**
- * Base disk cache.
+ * 基础硬盘缓存.
  *
  * @author Sergey Tarasevich (nostra13[at]gmail[dot]com)
  * @see FileNameGenerator
@@ -62,8 +62,8 @@ public abstract class BaseDiskCache implements DiskCache {
 	}
 
 	/**
-	 * @param cacheDir        Directory for file caching
-	 * @param reserveCacheDir null-ok; Reserve directory for file caching. It's used when the primary directory isn't available.
+	 * @param cacheDir        文件缓存目录
+	 * @param reserveCacheDir 传入 null 就可以; 文件缓存的预备目录. It's used when the primary directory isn't available.
 	 */
 	public BaseDiskCache(File cacheDir, File reserveCacheDir) {
 		this(cacheDir, reserveCacheDir, DefaultConfigurationFactory.createFileNameGenerator());

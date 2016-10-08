@@ -54,10 +54,10 @@ public final class L {
 	}
 
 	/**
-	 * Enables/disables detail logging of {@link ImageLoader} work.
-	 * Consider {@link com.nostra13.universalimageloader.utils.L#disableLogging()} to disable
-	 * ImageLoader logging completely (even error logs)<br />
-	 * Debug logs are disabled by default.
+	 * 打开/关闭 {@link ImageLoader} 的日志工作细节.
+	 * 考虑 {@link com.nostra13.universalimageloader.utils.L#disableLogging()}
+	 * 去完全打开 ImageLoader 的日志功能(甚至是错误日志)<br />
+	 * 调试日志 (Debug logs) 默认是关闭的.
 	 */
 	public static void writeDebugLogs(boolean writeDebugLogs) {
 		L.writeDebugLogs = writeDebugLogs;
