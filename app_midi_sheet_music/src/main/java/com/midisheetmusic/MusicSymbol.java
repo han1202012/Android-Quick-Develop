@@ -16,6 +16,8 @@ package com.midisheetmusic;
 import android.graphics.*;
 
 /** @class MusicSymbol
+ * MusicSymbol 类代表可以被展示在五线谱上的音乐符号. 包括 :
+ * -- 1. 变音符号 : 升号, 降号, 还原号
  * The MusicSymbol class represents music symbols that can be displayed
  * on a staff.  This includes:
  *  - Accidental symbols: sharp, flat, natural

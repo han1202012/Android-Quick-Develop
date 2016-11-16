@@ -13,12 +13,12 @@
 
 package com.midisheetmusic;
 
-/** Accidentals 临时记号 */
+/** 变音记号 */
 public enum Accid {
     None,   
-    Sharp,
-    Flat,
-    Natural
+    Sharp,  //升号
+    Flat,   //降号
+    Natural //还原号
 }
 
 
