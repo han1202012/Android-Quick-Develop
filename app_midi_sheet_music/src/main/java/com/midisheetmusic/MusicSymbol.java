@@ -17,7 +17,11 @@ import android.graphics.*;
 
 /** @class MusicSymbol
  * MusicSymbol 类代表可以被展示在五线谱上的音乐符号. 包括 :
- * -- 1. 变音符号 : 升号, 降号, 还原号
+ * -- 1. 变音符号 (Accidental symbols) : 升号 (sharp), 降号 (flat), 还原号 (natural)
+ * -- 2. 和弦符号 (Chord symbols) : 单音符 (single notes), 和弦音符 (chords)
+ * -- 3. 休止符 (Rest symbols) : 全休止符, 二分休止符, 四分休止符, 八分休止符
+ * -- 4.
+ * -- 5. 高音, 低音符号
  * The MusicSymbol class represents music symbols that can be displayed
  * on a staff.  This includes:
  *  - Accidental symbols: sharp, flat, natural

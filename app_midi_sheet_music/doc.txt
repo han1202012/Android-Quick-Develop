@@ -1,13 +1,13 @@
 1. 源码解析
 
-Accid.java : 变音记号;
+Accid.java : 变音记号枚举;
 AccidSymbol.java :
 AllSongsActivity.java
 BarSymbol.java
 BlankSymbol.java
 ChooseSongActivity.java
 ChordSymbol.java
-Clef.java
+Clef.java : 高低音符号枚举
 ClefMeasures.java
 ClefSymbol.java
 ColorChangedListener.java
