@@ -13,7 +13,7 @@
 
 package com.midisheetmusic;
 
-/** 变音记号 */
+/** 变音记号  */
 public enum Accid {
     None,   
     Sharp,  //升号
